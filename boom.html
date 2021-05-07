@@ -1,0 +1,2270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Trial</title>
+
+	<div class="All meta tags">
+		<meta name="description" content="An essay on installation Art">
+		<!-- This contains a description of the page. This description is commonly used by search engines to understand what the page is about and should be a maximum of 155 characters. Sometimes it is also displayed in search engine results. -->
+		<meta name="keyword" content="installation, art, opinion">
+		<!-- This contains a list of commaseparated words that a user might search on to find the page. In practice, this no longer has any noticeable effect on how search engines index your site -->
+		<meta name="robots" content="Nofollow">
+		<!-- This indicates whether search engines should add this page to their search results or not. A value of noindex can be used if this page should not be added. A value of nofollow can be used if search engines should add this page in their results but not any pages that it links to. -->
+
+		<!-- https-equiv attribute in meta tag is used in the case of author, pragma, expires -->
+
+		<meta http-equiv="author" content="Pranav Gupta"> <!-- This defines the author of the web page. -->
+		<meta http-equiv="pragma" content="no-cache">
+		<!-- This prevents the browser from caching the page. (That is, storing it locally to save time downloading it on subsequent visits.) -->
+		<meta http-equiv="expires" content="Fri, 04 Apr 2100 23:59:59 GMT">
+		<!-- Because browsers often cache the content of a page, the expires option can be used to indicate when the page should expire (and no longer be cached). Note that the date must be specified in the format shown. -->
+	</div>
+
+	<!-- There are three ways for adding css to your html file 
+	 1. to add css by adding style attribute in seperate html element
+	 2. Another way is to add link element to html head element and add the file name in href attribute
+     3. Last way is to add a style element in the head element and start writing your css under that style element -->
+
+	<!-- 	<style type="text/css">
+/*body{
+	background-color: black;
+	color: green
+}
+</style> -->
+	<!--You can write css this way also-->
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<h1 id="top" align="middle">Looking at how other Sites are built</h1>
+	<p>When the web was first taking off, one of the most common ways to learn about HTML and discover new tips and
+		techniques was to look at the source code that made up web pages.</p>
+	<p>These days there are many more books and online tutorials that teach HTML, but you can still look at the code
+		that a web server sends to you. To try this out for yourself, simply go to the sample code for this chapter, at
+		www.htmlandcssbook.com/ code/ and click on the link called "View Source."</p>
+	<p>Once you have opened this page, you can look for the View menu in your browser, and select the option that says
+		Source or View source. (The title changes depending on what browser you are using.)
+	</p>
+	<p>You should see a new window appear, and it will contain the source code that was used to create this page.
+	</p>
+	<p>You can see this result in the photograph on the right. The page you see is the window at the top; the code is
+		below.
+	</p>
+	<p>At first this code might look complicated but don't be discouraged. By the time you have finished the next
+		chapter of this book, you will be able to understand it. </p>
+	<p>All of the examples for this book are on the website, and you can use this simple technique on any of the example
+		pages to see how they work.</p>
+	<p>You can also download all of the code for this book from the same website by clicking on the "Download" link.
+	</p>
+
+	<hr />
+
+	<h2 style="text-align: center;">Another Sub-Heading</h2>
+	<p>This is how
+	<p lang="fr">Paragraphe <i>en</i> Français</p>
+	<s>this is not good for me</s>
+	<p>2<sup>2</sup>= 4</p>
+	<p>a<sub>1</sub></p>
+	<p><strong>Beware:</strong> Pickpockets operate in this area.</p>
+	<p>I <em>think</em> Ivy was the first.</p>
+
+	<hr />
+
+	<h1 style="text-align: center;">Next</h1>
+	<blockquote cite="http://en.wikipedia.org/wiki/ Winnie-the-Pooh">
+		<p>Did you ever stop to think, and forget to start again?</p>
+	</blockquote>
+	<p>As A.A. Milne said, <q>Some people talk to animals. Not many listen though. That's the problem.</q></p>
+
+	<hr />
+
+	<h1 style="text-align: center;">Next Second</h1>
+	<p><abbr title="Professor">Prof</abbr> Stephen Hawking is a theoretical physicist and cosmologist.</p>
+	<p><abbr title="National Aeronautics and Space Administration">NASA</abbr> do some crazy space stuff.</p>
+
+	<hr />
+
+	<h1 style="text-align: center;">Next Third</h1>
+	<p><cite>A Brief History of Time</cite> by Stephen Hawking has sold over ten million copies worldwide.</p>
+	<p>A <dfn>black hole</dfn> is a region of space from which nothing, not even light, can escape.</p>
+
+	<hr />
+
+	<h1 style="text-align: center;">Next Forth</h1>
+	<address>
+		<p><a href="mailto:homer@example.org"> homer@example.org</a></p>
+		<p>742 Evergreen Terrace, Springfield.</p>
+	</address>
+
+	<hr />
+
+	<h1 style="text-align: center;">Next Fifth</h1>
+	<p>It was the <s>worst</s> <u>best</u> idea she had ever had.</p>
+
+	<hr />
+
+	<h1 style="text-align: center;">Next Sixth</h1>
+	<!-- For ordered list -->
+	<ol>
+		<li>Chop potatoes into quarters</li>
+		<li>Simmer in salted water for 15-20 minutes until tender</li>
+		<li>Heat milk, butter and nutmeg</li>
+		<li>Drain potatoes and mash</li>
+		<li>Mix in the milk mixture</li>
+	</ol>
+	<!-- For unordered list-->
+	<ul>
+		<li>1kg King Edward potatoes</li>
+		<ul>
+			<li>Here you can write the sublist which is also called as nested list</li>
+		</ul>
+		<li>100ml milk</li>
+		<li>50g salted butter</li>
+		<li>Freshly grated nutmeg</li>
+		<li>Salt and pepper to taste</li>
+	</ul>
+	<!-- For defined list-->
+	<dl>
+		<dt><b><u>Sashimi:</u></b></dt>
+		<dd>Sliced raw fish that is served with condiments such as shredded daikon radish or ginger root, wasabi and
+			soy
+			sauce</dd>
+		<dt><b><u>Scale:</u></b></dt>
+		<dd>A device used to accurately measure the weight of ingredients</dd>
+		<dd>A technique by which the scales are removed from the skin of a fish</dd>
+		<dt><b><u>Scamorze or Scamorzo:</u></b></dt>
+		<dd>An Italian cheese usually made from whole cow's milk (although it was traditionally made from buffalo
+			milk)
+		</dd>
+	</dl>
+
+	<hr />
+
+	<h1 style="text-align: center;">Linkings</h1>
+
+	<!-- For another website link-->
+	<p><a href="https://dreammore.in"><i>The famous Dream More</i></a></p>
+	<p><a
+			href="https://www.tripstodiscover.com/hotels/5-star/in-New-York-City--NY/?gclid=Cj0KCQjwoaz3BRDnARIsAF1RfLeacwYBk5P5-abzjT8IGnpNjRgjaRRZr1ZOx1wAUToDtyCp7WMQRQMaApUvEALw_wcB&title=top%20luxury%20%20hotels%20in%20New%20York%20City&utm_campaign=category-geo-tests&utm_medium=paid-search&utm_source=google"><i>Find
+				Your Next Hotel To Stay In New York</i></a></p>
+	<p><a href="https://www.youtube.com"><i>Youtube</i></a><sup>IN</sup> The fastest growing website and app in the
+		world</p>
+
+	<!-- Link for the another page on the same website-->
+	<p><a href="professional">Professional Page</a></p>
+
+	<!-- To attach a mail with that word or that link-->
+	<p><a href="mailto:gupta2004.pranav@gmail.com"><b><i>Mail To Pranav Gupta</i></b></a></p>
+
+	<!-- To open link in a new tab -->
+	<p><a href="https://dreammore.in" target="_blank">Dream More on new tab</a></p>
+
+	<!-- Linking to a specific Part of the same Page -->
+	<!-- Just add id=""(the id can be as example top)in the heading or paragraph to the part of page which you want to connect to the link and then make a link where you want at that site and just add in href="#xyz"(xyz is the name of the id which you have given in the heading or in the paragraph)-->
+	<!-- These are some exaples-->
+	<h1>Linking To A Specific Part of a page </h1>
+	<a href="#arc_shot">Arc Shot</a><br />
+	<a href="#interlude">Interlude</a><br />
+	<a href="#prologue">Prologue</a><br /><br />
+	<h2 id="arc_shot">Arc Shot</h2>
+	<p>A shot in which the subject is photographed by an encircling or moving camera.</p>
+	<h2 id="interlude">Interlude</h2>
+	<p>A brief, intervening film scene or sequence, not specifically tied to the plot, that appears within a film.
+	</p>
+	<h2 id="prologue">Prologue</h2>
+	<p>A speech, preface, introduction, or brief scene preceding the the main action or plot of a film; contrast to
+		epilogue.</p>
+	<p><a href="#top">Top</a></p>
+
+	<hr />
+
+	<h1 style="text-align: center;">Images</h1>
+	<h2>Adding images</h2>
+	<h3>Covid-19</h3>
+	<img src="../static/img/covid-19.jpg" alt="Two Womens wearing a mask" title="COVID-19" width="1333" height="640">
+	<p>You can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:</p>
+	<ul>
+		<li>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and
+			water.
+			Why? Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on
+			your hands.</li>
+		<li>Maintain at least 1 metre (3 feet) distance between yourself and others. Why? When someone coughs,
+			sneezes,
+			or speaks they spray small liquid droplets from their nose or mouth which may contain virus. If you are
+			too
+			close, you can breathe in the droplets, including the COVID-19 virus if the person has the disease.</li>
+		<li>Avoid going to crowded places. Why? Where people come together in crowds, you are more likely to come
+			into
+			close contact with someone that has COIVD-19 and it is more difficult to maintain physical distance of 1
+			metre (3 feet).</li>
+		<li>Avoid touching eyes, nose and mouth. Why? Hands touch many surfaces and can pick up viruses. Once
+			contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter
+			your
+			body and infect you.</li>
+		<li>Make sure you, and the people around you, follow good respiratory hygiene. This means covering your
+			mouth
+			and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue
+			immediately and wash your hands. Why? Droplets spread virus. By following good respiratory hygiene, you
+			protect the people around you from viruses such as cold, flu and COVID-19.</li>
+		<li>Stay home and self-isolate even with minor symptoms such as cough, headache, mild fever, until you
+			recover.
+			Have someone bring you supplies. If you need to leave your house, wear a mask to avoid infecting others.
+			Why? Avoiding contact with others will protect them from possible COVID-19 and other viruses.</li>
+	</ul>
+	<!-- Take care of the things mentioned in this image before choosing a best image for your site. This can be helpful to attract customers towars your website-->
+	<!-- you can use <br/> also by adding this before and after the text when you want to give some space between the lines-->
+	<h1 style="text-align: center;"><img src="../static/img/images.png" alt="..." title="Take Care of these"
+			align="right"><br /><br /><br /><br /><br /><br />Old Code: aligning Images horizontally and vertically
+		like
+		this:<br /><br />As this is the right align →<br /><br />You can use top,bottom,middle and left align too.
+	</h1>
+	<!-- You can add this white sheet if your text is small-->
+	<!--<img src="../static/img/white.jpg" height="10">-->
+	<img src="../static/img/align.png" alt="" title="Top, Bottom, Middle align">
+
+	<hr />
+
+	<h1>Figure and figure caption</h1>
+	<figure>
+		<img src="../static/img/unsplash.jpg" alt="Photograph of two sea otters floating in water" height="550"
+			width="500"> <br />
+		<figcaption>Sea otters hold hands when they sleep so they don't drift away from each other.</figcaption>
+	</figure>
+
+	<hr />
+
+	<h1>Tables</h1>
+
+	<table>
+		<tr>
+			<!--tr tag is used for opening and closing a single row(horizontally) -->
+			<td>15</td>
+			<!--td tag is used to write the value in a cell of that horizontal row-->
+			<td>15</td>
+			<!--td tag stand for table data -->
+			<td>30</td>
+		</tr>
+		<tr>
+			<!-- tr stands for table row -->
+			<td>45</td>
+			<td>60</td>
+			<td>45</td>
+		</tr>
+		<tr>
+			<td>60</td>
+			<td>90</td>
+			<td>90</td>
+		</tr>
+	</table>
+
+	<h1>Table Heading</h1>
+	<table>
+		<tr>
+			<td></td>
+			<th scope="col">Sunday</th>
+			<th scope="col">Saturday</th>
+		</tr>
+		<tr>
+			<th scope="row">Ticket Sold:</th>
+			<td>120</td>
+			<td>135</td>
+		</tr>
+		<tr>
+			<th scope="row">Total Sales:</th>
+			<td>$600</td>
+			<td>$675</td>
+		</tr>
+	</table>
+	<br />
+	<table>
+		<tr>
+			<th></th>
+			<th scope="col">A</th>
+			<th scope="col">B</th>
+			<th scope="col">C</th>
+			<th scope="col">D</th>
+			<th scope="col">E</th>
+		</tr>
+		<tr>
+			<th scope="row">1</th>
+			<td colspan="2"><b>Book Store</b></td>
+		</tr>
+		<tr>
+			<th scope="row">2</th>
+		</tr>
+		<tr>
+			<th scope="row">3</th>
+			<td></td>
+			<td>Total number of books</td>
+			<td>% sold for the highest price</td>
+		</tr>
+		<tr>
+			<th scope="row">4</th>
+			<td></td>
+			<td>100</td>
+			<td>60%</td>
+		</tr>
+		<tr>
+			<th scope="row">5</th>
+		</tr>
+		<tr>
+			<th scope="row">6</th>
+			<td></td>
+			<td></td>
+			<td>Number Of Books</td>
+			<td>Unit profit</td>
+		</tr>
+		<tr>
+			<th scope="row">7</th>
+			<td></td>
+			<td>Highest Price</td>
+			<td>60</td>
+			<td>$50</td>
+		</tr>
+		<tr>
+			<th scope="row">8</th>
+			<td></td>
+			<td>Lowest Price</td>
+			<td>40</td>
+			<td>$20</td>
+		</tr>
+		<tr>
+			<th scope="row">9</th>
+		</tr>
+		<tr>
+			<th scope="row">10</th>
+			<td></td>
+			<td></td>
+			<td>Total profit:-</td>
+			<td>$3800</td>
+		</tr>
+		<tr>
+			<th scope="row">11</th>
+		</tr>
+		<tr>
+			<th scope="row">12</th>
+			<td>$3800</td>
+			<td>$50</td>
+			<td>$60</td>
+			<td>$70</td>
+		</tr>
+		<tr>
+			<th scope="row">13</th>
+			<td>60%</td>
+			<td>$3800</td>
+			<td>$4400</td>
+			<td>$5000</td>
+		</tr>
+		<tr>
+			<th scope="row">14</th>
+			<td>70%</td>
+			<td>$4100</td>
+			<td>$4800</td>
+			<td>$5500</td>
+		</tr>
+		<tr>
+			<th scope="row">15</th>
+			<td>80%</td>
+			<td>$4400</td>
+			<td>$5200</td>
+			<td>$6000</td>
+		</tr>
+		<tr>
+			<th scope="row">16</th>
+			<td>90%</td>
+			<td>$4700</td>
+			<td>$5600</td>
+			<td>$6500</td>
+		</tr>
+		<tr>
+			<th scope="row">17</th>
+			<td>100%</td>
+			<td>$5000</td>
+			<td>$6000</td>
+			<td>$7000</td>
+		</tr>
+		<tr>
+			<th scope="row">18</th>
+		</tr>
+	</table>
+
+	<br />
+	<br />
+
+	<!-- Add colspan="" or rowspan="" in <th> or <td> tag like this <td colspan="2">. This is done when you want your text to merge in two lines -->
+	<h1>Spanning coloumn and rows</h1>
+	<p> <b><i>Add colspan="" or rowspan="" in th or td tag like this td colspan="2">. This is done when you want
+				your
+				text to merge in two lines.</i></b></p>
+
+	<br />
+	<br />
+
+	<!-- The headings of the table should sit inside the <thead> element.  -->
+	<!-- The body should sit inside the <tbody> element. -->
+	<!-- The footer belongs inside the <tfoot> element. -->
+	<h1>Long Tables</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Date</th>
+				<th>Income</th>
+				<th>Expenditure</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>1st January</th>
+				<td>250</td>
+				<td>36</td>
+			</tr>
+			<tr>
+				<th>2nd January</th>
+				<td>285</td>
+				<td>48</td>
+			</tr> <!-- additional rows as above -->
+			<tr>
+				<th>31st January</th>
+				<td>129</td>
+				<td>64</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td></td>
+				<td>7824</td>
+				<td>1241</td>
+			</tr>
+		</tfoot>
+	</table>
+
+	<br />
+	<br />
+
+	<h1>Width and spacing</h1>
+	<table width="400" cellpadding="10" cellspacing="5">
+		<tr>
+			<th width="150"></th>
+			<th>Withdrawn</th>
+			<th>Credit</th>
+			<th width="150">Balance</th>
+		</tr>
+		<tr>
+			<th>January</th>
+			<td>250.00</td>
+			<td>660.50</td>
+			<td>410.50</td>
+		</tr>
+		<tr>
+			<th>February</th>
+			<td>135.55</td>
+			<td>895.20</td>
+			<td>1170.15</td>
+		</tr>
+	</table>
+
+	<br />
+	<br />
+
+	<h1>Border And Background</h1>
+	<table border="2" bgcolor="#ffffff">
+		<tr>
+			<th width="150"></th>
+			<th>Withdrawn</th>
+			<th>Credit</th>
+			<th width="150" bgcolor="#cccccc">Balance</th>
+		</tr>
+		<tr>
+			<th>January</th>
+			<td>250.00</td>
+			<td>660.50</td>
+			<td bgcolor="#cccccc">410.50</td>
+		</tr>
+		<tr>
+			<th>February</th>
+			<td>135.55</td>
+			<td>895.20</td>
+			<td bgcolor="#cccccc">1170.15</td>
+		</tr>
+	</table>
+
+	<hr>
+
+	<h1>Forms</h1>
+	<img src="../static/img/Forms.png" alt="">
+	<br />
+	<h2>Form Structure</h2>
+	<form action="http://127.0.0.1:5000/boom" method="get">
+		<!--the action attribute here is used to write the url of the site where you will get informed when you submit the form-->
+		<p>Username:-
+			<input type="text" name="Username" size="20" maxlength="25">
+		</p>
+		<p>Password:-
+			<input type="Password" name="Password" size="20" maxlength="16" minlength="8">
+		</p>
+	</form>
+
+	<h2>Text Area</h2>
+	<form action="http://127.0.0.1:5000/boom">
+		<p><b><u>Message</u></b></p>
+		<textarea name="Message" cols="101" rows="15"></textarea>
+	</form>
+
+	<h2>Radio Button</h2>
+	<form action="http://127.0.0.1:5000/boom">
+		<p>Please select your favourite Fast Food:
+			<br />
+			<input type="Radio" name="Fast Food" value="Momos" checked="checked">Momos
+			<input type="Radio" name="Fast Food" value="Spring Roll">Spring Roll
+			<input type="Radio" name="Fast Food" value="Pizza">Pizza
+		</p>
+	</form>
+
+	<h2>Checked Box</h2>
+	<form action="http://127.0.0.1:5000/boom">
+		<p>Please select what is your favourate Fast Food:
+			<br />
+			<input type="Checkbox" name="Fast Food" value="Momos" checked="checked">Momos
+			<input type="Checkbox" name="Fast Food" value="Spring Roll">Spring Roll
+			<input type="Checkbox" name="Fast Food" value="Pizza">Pizza
+		</p>
+	</form>
+
+	<h2>Drop Down List Box</h2>
+	<form action="http://127.0.0.1:5000/boom">
+		<p>My Favourate Fast Food Is
+			<select name="Fast Food">
+				<option value="Momos">Momos</option>
+				<option value="Spring Roll">Spring Roll</option>
+				<option value="Pizza">Pizza</option>
+			</select>
+		</p>
+	</form>
+
+	<h2>Multiple Select Box</h2>
+	<form action="http://127.0.0.1:5000/boom">
+		<p>Do you play any of the following instruments? ( Want to select more than one option? Hold down the
+			control
+			key in your windows laptop keybord and for mqac hold down command key and select more than one option at
+			a
+			time)</p>
+		<select name="instruments" size="4" multiple="multiple">
+			<!-- Multiple attribute is used to select more than one option in this if you remove this then you can select only one option-->
+			<option value="guitar" selected="selected">Guitar</option>
+			<option value="drums">Drums</option>
+			<option value="keyboard" selected="selected">Keyboard</option>
+			<option value="bass">Bass</option>
+		</select>
+	</form>
+
+	<h2>File Input Box</h2>
+	<form action="http://127.0.0.1:5000/boom" method="post">
+		<p>Upload your File here:</p>
+		<input type="File" name="user-song"><br />
+		<input type="submit" value="upload">
+	</form>
+
+	<h2>Submit Button</h2>
+	<form action="https://127.0.0.1:5000/boom">
+		<p>Subscribe to our email list:</p>
+		<input type="text" name="email">
+		<input type="submit" name="subscribe" value="Subscribe">
+	</form>
+
+	<h2>Image Button</h2>
+	<form action="https://127.0.0.1:5000/boom">
+		<p>Subscribe to get latest notifications from us:</p>
+		<input type="text" name="email"><br /><br />
+		<input type="image" src="../static/img/subscribe.png" width="120" height="30">
+	</form>
+
+	<h2>Button And Hidden Controls</h2>
+	<form action="https://127.0.0.1:5000/boom">
+		<button> <img src="../static/img/+.png" alt="add" width="10" height="10"> Add</button>
+		<input type="Hidden" name="bookmark" value="lyrics" />
+	</form>
+
+	<h2>Labeling form controls</h2>
+	<label>Age:
+		<input type="number" name="age" max="100" min="1" size="2">
+	</label>
+	<br />
+	<p>Gender:
+		<input id="female" type="radio" name="gender" value="f">
+		<label for="female">Female</label>
+		<input id="male" type="radio" name="gender" value="m">
+		<label for="male">Male</label>
+		<input id="transgender" type="radio" name="gender" value="t">
+		<label for="transgender">Transgender</label>
+	</p>
+
+	<h2>Grouping Form Elements</h2>
+	<fieldset>
+		<legend>Contact Details</legend>
+		<label>Email: <br />
+			<input type="text" name="email"></label><br /><br />
+		<label>Mobile: <br />
+			<input type="text" name="mobile"></label><br /><br />
+		<label>Telephone:<br />
+			<input type="text" name="telephone"></label><br /><br />
+		<input type="Submit" value="Submit">
+	</fieldset>
+
+	<h2>Form Validation</h2>
+	<form action="http://127.0.0.1:5000/boom" method="post">
+		<label for="username">Username:</label>
+		<input type="text" name="username" required="required" /><br /><br />
+		<label for="password">Password:</label>
+		<input type="password" name="password" required="required" /><br /><br />
+		<input type="Submit" value="Submit" />
+	</form>
+
+	<h2>Date Input</h2>
+	<form action="http://127.0.0.1:5000/boom" method="post">
+		<label>Departure Date:</label>
+		<input type="Date" name="Departure" required="required">
+		<input type="Submit" value="Submit">
+	</form>
+
+	<h2>Email And URL Input</h2>
+	<form action="http://127.0.0.1:5000/boom">
+		<p><b>Please enter your email address:</b></p>
+		<input type="email" name="email" required="required">
+		<input type="Submit" value="Submit">
+	</form>
+
+	<form action="http://127.0.0.1:5000/boom">
+		<p><b>Please enter your website(URL):</b></p>
+		<input type="url" name="website" required="required">
+		<input type="Submit" value="Submit">
+	</form>
+
+	<h2>Search Input</h2>
+	<form action="http://127.0.0.1:5000/boom">
+		<p><b>Search:</b><br />
+			<input type="Search" name="Search" placeholder="Enter your keyword">
+			<input type="submit" value="Search"></p>
+	</form>
+
+	<hr />
+
+	<h1>Extra Markup</h1>
+	<h2>Class Attribute</h2>
+
+	<!-- Every HTML element can also carry a class attribute. Sometimes, rather than uniquely identifying one element within a document, you will want a way to identify several elements as being different from the other elements on the page. For example, you might have some paragraphs of text that contain information that is more important than others and want to distinguish these elements, or you might want to differentiate between links that point to other pages on your own site and links that point to external sites.
+
+To do this you can use the class attribute. Its value should describe the class it belongs to. In the example on the left, key paragraphs have a class attribute whose value is important.
+
+The class attribute on any element can share the same value. So, in this example, the value of important could be used on headings and links, too.
+ -->
+
+	<p class="important">For a one-year period from November 2010, the Marugame Genichiro-Inokuma Museum of
+		Contemporary
+		Art (MIMOCA) will host a cycle of four Hiroshi Sugimoto exhibitions</p>
+	<p>Each will showcase works by the artist thematically contextualized under the headings "Science,"
+		"Architecture,"
+		"History" and "Religion" so as to present a comprehensive panorama of the artist's oeuvre.</p>
+	<p class="important admittance">Hours: 10:00 – 18:00 (No admittance after 17:30)</p>
+
+	<h2>Grouping Text & Elements in a block</h2>
+	<div id="header">
+		<!-- The <div> element allows you to group a set of elements together in one block-level box.
+
+For example, you might create a <div> element to contain all of the elements for the header of your site (the logo and the navigation), or you might create a <div> element to contain comments from visitors.
+
+In a browser, the contents of the <div> element will start on a new line, but other than this it will make no difference to the presentation of the page.
+
+Using an id or class attribute on the <div> element, however, means that you can create CSS style rules to indicate how much space the <div> element should occupy on the screen and change the appearance of all the elements contained within it.
+
+It can also make it easier to follow your code if you have used <div> elements to hold each section of the page.
+
+ -->
+		<img src="..." alt="Anish Kapoor" />
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="biography.html">Biography</a></li>
+			<li><a href="works.html">Works</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+
+	<h2>Grouping Text & Element Inline</h2>
+	<!-- 
+The <span> element acts like an inline equivalent of the <div> element. It is used to either: 
+1. Contain a section of text where there is no other suitable element to differentiate it from its surrounding text
+2. Contain a number of inline elements
+The most common reason why people use <span> elements is so that they can control the appearance of the content of these elements using CSS.
+You will usually see that a class or id attribute is used with <span> elements:
+● To explain the purpose of this <span> element
+● So that CSS styles can be applied to elements that have specific values for these attributes
+-->
+	<p style="color: darkcyan;">Anish Kapoor won the turner prize in 1991 and exibited in the <span class="gallery">Tate
+			Modern</span> gallery in london 2003.</p>
+
+	<h2>Iframes</h2>
+	<!-- An iframe is like a little window that has been cut into your page — and in that window you can see another page. The term iframe is an abbreviation of inline frame. -->
+	<iframe
+		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3517.6532453750515!2d77.31847321454858!3d28.157042412193462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cd3c5f99131b7%3A0x5d356b042f122a44!2sSardar%20Patel%20Housing%20Society!5e0!3m2!1sen!2sin!4v1596277021403!5m2!1sen!2sin"
+		width="450" height="350" frameborder="0"></iframe>
+
+	<h2>Meta Tag</h2>
+	<!-- 
+The <meta> element lives inside the <head> element and contains information about that web page.
+It is not visible to users but fulfills a number of purposes such as telling search engines about your page, who created it, and whether or not it is time sensitive. (If the page is time sensitive, it can be set to expire.)
+ -->
+	<p>To see meta tag scroll up to head element and there you will get to know how meta tag is being used</p>
+
+	<hr />
+
+	<h1>Flash, Video And Audio</h1>
+	<p>Flash is a very popular technology used to add animations, video, and audio to websites. This chapter begins
+		by
+		looking at how to use it in your web pages.</p>
+
+	<h2>Adding a flash movie to our web page</h2>
+	<p>If you want to add flash movies to your web page then open html and css pdf and open page no. 207 in it and
+		apply.</p>
+
+	<h2>Adding videos to your pages</h2>
+	<video src="../static/videos/1.mp4" poster="../static/img/unsplash.jpg" width="400" height="300" preload="none"
+		controls loop autoplay muted>
+		<!-- controls here is used to provide controls for playing the video either it is pause or anything else , loop here is used to play video automatically again and again once it complete  -->
+		<p>A video</p>
+	</video>
+
+	<h2>Adding audios to our websites</h2>
+	<audio src="../static/audios/jump.wav" controls autoplay loop muted autoplay></audio>
+
+	<h2 class="p">Multiple audio sources</h2>
+	<audio controls autoplay loop muted autoplay>
+		<source src="../static/audios/wings.wav">
+		<source src="../static/audios/wings.mp3">
+		<!-- Here i have 2 same audios but the difference between these is only this that their sources are different means that their file type is different actully this method of uploading the audio is used so that this audio can be play on the browsers which support .wav format and .mp3 format but remember you must have both type of source audio must be uploaded on your website  -->
+	</audio>
+	<br><br>
+	<hr>
+	<hr>
+	<hr>
+
+	<!-- Started with working on css  -->
+	<h1>It's time to work with css</h1>
+	<h2>Css Selectors</h2>
+	<img src="../static/img/css selector.png">
+
+	<div class="potatoesos">
+		<div class="potatoesis">
+			<h2>Potatoes</h2>
+			<p>There are dozens of different potatoes </p>
+		</div>
+	</div>
+
+	<h1>Color</h1>
+
+	<h2>pH scale using hex code, color name, rbg or rbga, hsl or hsla</h2>
+	<div class="div1">
+		<h3 class="h31">pH Scale</h3>
+		<p class="fourteen p1">14.0 VERY ALKALINE</p>
+		<p class="thirteen p1">13.0</p>
+		<p class="twelve p1">12.0</p>
+		<p class="eleven p1">11.0</p>
+		<p class="ten p1">10.0</p>
+		<p class="nine p1">9.0</p>
+		<p class="eight p1">8.0</p>
+		<p class="seven p1">7.0 NEUTRAL</p>
+		<p class="six p1">6.0</p>
+		<p class="five p1">5.0</p>
+		<p class="four p1">4.0</p>
+		<p class="three p1">3.0</p>
+		<p class="two p1">2.0</p>
+		<p class="one p1">1.0</p>
+		<p class="zero p1">0.0 VERY ACID</p>
+	</div>
+
+	<h1>Text</h1>
+	<h2>Size Of Type</h2>
+	<h3>There are three type of values to write under font Size</h3>
+	<ul style="font-family: cursive;">
+		<li style="font-size: 20px;"><u><i><b>Pixels</b></i></u> - Pixels are commonly used because they allow web
+			designers very precise control
+			over how much space their text takes up. The number of pixels is followed by the letters px.</li>
+		<li style="font-size: 125%;"><u><i><b>Percentages</b></i></u> - The default size of text in browsers is
+			16px. So
+			a size of 75% would be
+			the equivalent of 12px, and 200% would be 32px. If you create a rule to make all text inside the 'body'
+			element to be 75% of the default size (to make it 12px), and then specify another rule that indicates
+			the
+			content of an element inside the 'body' element should be 75% size, it will be 9px (75% of the 12px font
+			size).</li>
+		<li style="font-size: 1.4em;"><u><i><b>EMS</b></i></u> - An em is equivalent to the width of a letter m.
+		</li>
+		<li style="font-size: 15pt;"><u><i><b>Points</b></i></u> - Print designers often refer to the size of text
+			in
+			terms of points rather than
+			pixels (hence the use of pt in the scale on the right). A pixel roughly equates to a point because a
+			point
+			corresponds to 1/72 of an inch, and most computer displays have a resolution of 72 dots per inch.</li>
+	</ul>
+	<img src="../static/img/type size.png" alt="..." title="Type Size">
+
+	<h2>More Font Choice</h2>
+	<p class="this">@font-face allows you to use a font, even if it is not installed on the computer of the person
+		browsing, by allowing you to specify a path to a copy of the font, which will be downloaded if it is not on
+		the user's machine.
+		<br>Because this technique allows a version of the font to be downloaded to the user's computer, it is
+		important that the license for the font permits it to be used in this way.
+		<br>You add the font to your style sheet using the @font-face rule, as shown on the right. </p>
+
+	<h2>Font Weight - Bold</h2>
+	<p style="font-weight: bold;">This is bold</p>
+
+	<h2>Font Style - Italic</h2>
+	<p style="font-style: italic;">This is italic</p>
+
+	<h2>Text transformation - uppercase and lowercase</h2>
+	<p style="text-transform: uppercase;">this is uppercase</p>
+	<p style="text-transform: lowercase;">this is lowercase</p>
+	<p style="text-transform: capitalize;">this is capatalize</p>
+
+	<h2>Text Decoration - Underline and strike</h2>
+	<p style="text-decoration: underline;">This is Underline</p>
+	<p style="text-decoration: overline;">This is overline</p>
+	<p style="text-decoration: line-through;">This is line-through</p>
+	<p style="text-decoration: blink;">This is blink</p>
+
+	<h2>Line height - Leading</h2>
+	<p>This is a sentence with no line height feature</p>
+	<p style="line-height: 3.4em" ;>This is a line with line height feature. The advantage of this feature is that
+		it will increase your line height from from above as well as from bottom.</p>
+	<p>This is a simple sentence which is written just to show that how the upper sentence has increase it's line
+		height from top as well as from the bottom</p>
+
+	<h2>Letter and Word Spacing</h2>
+	<p style="letter-spacing: 3px;">This sentence contains letter spacing</p>
+	<p style="word-spacing: 5px;">This sentence contain word Spacing</p>
+
+	<h2>Text - Alignment (Horizontally)</h2>
+	<p style="text-align: left;">Left - This indicates that the text should be left-aligned.</p>
+	<p style="text-align: right;">Right - This indicates that the text should be right-aligned.</p>
+	<p style="text-align: center;">Center - This allows you to center text.</p>
+	<p style="text-align: justify;">Justify - This indicates that every line in a paragraph, except the last line,
+		should be set to take up the full width of the containing box.</p>
+
+	<h2>Text - Alignment (Vertically)</h2>
+	<!-- 
+The vertical-align property is a common source of confusion. It is not intended to allow you to vertically align text in the middle of block level elements such as <p> and <div>, although it does have this effect when used with table cells (the <td> and <th> elements).
+It is more commonly used with inline elements such as <img>, <em>, or <strong> elements. When used with these elements,  it performs a task very similar to the HTML align attribute used on the <img> element, which you met on pages 103-106. The values it can take are:
+baseline, sub, super, top, text-top, middle, bottom, text-bottom
+It can also take a length (usually specified in pixels or ems) or a percentage of the line height.
+ -->
+	<img src="../static/img/download.jpg" alt="..." id="text-top" height="100px">This is text - top<br>
+	<img src="../static/img/download.jpg" alt="..." id="top" height="100px">This is top<br>
+	<img src="../static/img/download.jpg" alt="..." id="baseline" height="100px">This is baseline<br>
+	<img src="../static/img/download.jpg" alt="..." id="middle" height="100px">This is Middle<br>
+	<img src="../static/img/download.jpg" alt="..." id="text-bottom" height="100px">This is text - bottom line<br>
+	<img src="../static/img/download.jpg" alt="..." id="bottom" height="100px">This is bottom line<br>
+	<img src="../static/img/download.jpg" alt="..." id="sub" height="100px">This is Sub line<br>
+	<img src="../static/img/download.jpg" alt="..." id="super" height="100px">This is Super line<br>
+
+	<h2>Text Indent</h2>
+	<!-- 
+The text-indent property allows you to indent the first line of text within an element. The amount you want the line indented by can be specified in a number of ways but is usually given in pixels or ems.
+It can take a negative value, which means it can be used to push text off the browser window. You can see this technique used in this example, where the <h1> element uses a background image to represent the heading. The text has been moved far to the left, off the screen. 
+We still want the heading text to be on the page (for search engines and those who cannot see the image), but we cannot have it displayed on top of the logo or it will be unreadable. By pushing it 9,999 pixels to the left, it is way out of sight but still in the HTML code.
+The second rule in this example indents the credits 20 pixels to the right.
+ -->
+	<p id="two-text-indent">This sentence contains text-indent</p>
+
+	<h2>Drop Shadow</h2>
+	<!-- The text-shadow property has become commonly used despite lacking support in all browsers. 
+It is used to create a drop shadow, which is a dark version of the word just behind it and slightly offset. It can also be used to create an embossed effect by adding a shadow that is slightly lighter than the text.
+The value of this property is quite complicated because it can take three lengths and a color for the drop shadow. 
+The first length indicates how far to the left or right the shadow should fall.
+The second value indicates the distance to the top or bottom that the shadow should fall.
+The third value is optional and specifies the amount of blur that should be applied to the drop shadow.
+The fourth value is the color of the drop shadow.
+ -->
+	<p id="one">This briard is known as the heart wrapped in fur</p>
+	<p id="two">This briard is known as the heart wrapped in fur</p>
+	<p id="three">This briard is known as the heart wrapped in fur</p>
+	<p id="four">This briard is known as the heart wrapped in fur</p>
+	<p id="five">This briard is known as the heart wrapped in fur</p>
+
+	<h2>First letter or line</h2>
+	<p id="hundred">This line contains the first letter</p>
+	<p id="onehundred">This line contains the first line</p>
+
+	<h2>Styling Links</h2>
+	<p><a href="#" class="hundred">:link</a>- This allows you to set styles for links that have not yet been visited.
+	</p>
+	<p><a href="https://dreammore.in" class="onehundred" target='_blank'>:visited</a>- This allows you to set styles for
+		links that have been clicked on.</p>
+
+	<h3><b>This input contains features including :hover, :active, :focus :-</b></h3>
+	<form action="http://localhost:5500/templates/boom.html" method="POST">
+		<input type="text" placeholder="Enter email address" required="required" class="input1 text1 text2">
+		<input type="submit" value="Submit" class="input1 submit submit1">
+	</form>
+	<p style="text-align: justify;">:hover - This is applied when a user hovers over an element with a pointing device
+		such as a mouse. This has
+		commonly been used to change the appearance of links and buttons when a user places their cursor over them. It
+		is worth noting that such events do not work on devices that use touch screens (such as the iPad) because the
+		screen is not able to tell when someone is hovering their finger over an element.
+	</p>
+	<p style="text-align: justify;">:active - This is applied when an element is being activated by a user; for example,
+		when a button is being
+		pressed or a link being clicked. Sometimes this is used to make a button or link feel more like it is being
+		pressed by changing the style or position of the element slightly.
+	</p>
+	<p style="text-align: justify;">:focus - This is applied when an element has focus. Any element that you can
+		interact with, such as a link you can
+		click on or any form control can have focus.
+		responding To users :hover, :active, :focus
+		Focus occurs when a browser discovers that you are ready to interact with an element on the page. For example,
+		when your cursor is in a form input ready to accept typing, that element is said to have focus. It is also
+		possible to use the tab key on your keyboard to move through the interactive items on a page. When
+		pseudo-classes are used, they should appear in this order: :link, :visited, :hover, :focus, :active.
+	</p>
+
+	<h2>Attribute Selectors</h2>
+	<img src="../static/img/Screenshot (299).png" alt="...">
+
+	<h1>Example of text chapter</h1>
+	<div class="contain">
+		<h1 class="contain">Briards</h1>
+		<h2 class="contain">A Heart wrapped in fur</h2>
+		<p class="intro contain">The <a class="breed contain" target='_blank'
+				href="http://en.wikipedia.org/wikiBriard">briard</a>, or berger de brie, is a large breed of dog
+			traditionally used as a herder and guardian of sheep.</p>
+		<h3 class="contain">Breed History</h3>
+		<p class="contain">The briard, which is believed to have originated in France, has been bred for centuries to
+			herd and to protect sheep. The breed was used by the French Army as sentries, messengers and to search for
+			wounded soldiers because of its fine sense of hearing. Briards were used in the First World War almost to
+			the point of extinction. Currently the population of briards is slowly recovering. Charlemagne, Napoleon,
+			Thomas Jefferson and Lafayette all owned briards.</p>
+		<p class="credits contain">by Ivy Duckett</p>
+	</div>
+
+	<h1>Boxes</h1>
+	<h2>Box Dimensions</h2>
+	<div class="box">
+		<p class="box"><br><br><br><br> The Moog company pioneered the commercial manufacture of modular
+			voltage-controlled analog synthesizer
+			systems in the early 1950s.</p>
+	</div>
+
+	<h2>Limiting width</h2>
+	<tr>
+		<td><img src="../static/img/Post.png" width="200" height="100" alt="Fender Rhodes" />
+		</td>
+		<td class="description">The Rhodes piano is an electro-mechanical piano, invented by Harold Rhodes during the
+			fifties and later manufactured in a number of models ...</td>
+		<td>$1400</td>
+	</tr>
+
+	<h2>Limiting Height</h2>
+	<h3 id="contain">Fender Mustang</h3>
+	<p id="contain">The Fender Mustang was introduced in 1964 as the basis of a major redesign of Fender's .</p>
+	<h3 id="contain">Fender Stratocaster</h3>
+	<p id="contain">The Fender Stratocaster or "Strat" is one of the most popular electric guitars of all time .</p>
+	<h3 id="contain">Gibson Les Paul</h3>
+	<p id="contain">The Gibson Les Paul is a solid body electric guitar that was first sold in 1952 .</p>
+
+	<h2>Overflowing Content</h2>
+	<h3>Hidden Overflowing Content</h3>
+	<p class="twentyone">Hidden - This property simply hides any extra content that does not fit in the box.</p>
+	<h3>Scroll Overflowing Content</h3>
+	<div class="twentytwo">
+		<p>scroll - This property adds a scrollbar to the box so that users can scroll to see the missing content. On
+			the left, you can see two boxes whose contents expand beyond their set dimensions. The first example has the
+			overflow property with a value of hidden. The second example has the overflow property with a value of
+			scroll. The overflow property is particularly handy because some browsers allow users to adjust the size of
+			the text to appear as large or as small as they want. If the text is set too large then the page can become
+			an unreadable mess. Hiding the overflow on such boxes helps prevent items overlapping on the page. This line
+			is not continue to horizontal because in this we have many words that are not attached with each other
+			however you can see in below lines that they have are a single word line each letter in the below line are
+			attached with each other.</p>
+		<p>uhvuifhvvvvvvvvvvvvvvvfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffhfhfhfhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhffffffffffffffffnlllviurbkeruuuuuuvbwkeurvbrekuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+		</p>
+	</div>
+
+	<h2>Border, Margin And Padding</h2>
+	<img src="../static/img/Border, padding, margin.png" alt="..." style="margin: 25px;">
+
+	<h2>White Space And Vertical Margins</h2>
+	<img src="../static/img/white space and vertical margins.png" alt="...">
+	<div>
+		<h3 style="color: darkorange; text-align: center;" class="space1">With<br>Margin & Padding</h3>
+		<p class="space space1"><b>1<sup>st</sup> Paragraph</b> <br>The padding and margin properties are very helpful
+			in adding space
+			between various items on the page.</p>
+		<p class="space space1"><b>2<sup>nd</sup> Paragraph</b> <br>Designers refer to the space between items on a page
+			as white space.
+			Imagine you had a border around a box.
+			You would not want the text to touch this border or it would become harder to read.</p>
+		<p class="space space1"><b>3<sup>rd</sup> Paragraph</b> <br>Or, imagine you had two boxes sitting side by side
+			(each with a black
+			border). You would not necessarily want
+			the boxes to touch edges as this would make the line look twice as thick on the facing sides.</p>
+	</div>
+	<br>
+	<div style="margin-right: 80%;">
+		<h3 style="color: darkorange; text-align: center;">Without<br>Margin & Padding</h3>
+		<p class="space"><b>1<sup>st</sup> Paragraph</b><br>The padding and margin properties are very helpful in
+			adding space
+			between various items on the page.</p>
+		<p class="space"><b>2<sup>nd</sup> Paragraph</b><br>Designers refer to the space between items on a page as
+			white space.
+			Imagine you had a border around a box.
+			You would not want the text to touch this border or it would become harder to read.</p>
+		<p class="space"><b>3<sup>rd</sup> Paragraph</b><br>Or, imagine you had two boxes sitting side by side (each
+			with a black
+			border). You would not necessarily want
+			the boxes to touch edges as this would make the line look twice as thick on the facing sides.</p>
+	</div>
+
+	<h2>Border Width</h2>
+	<p class="thirtyone">Hohner's "Clavinet" is essentially an electric clavichord.</p>
+	<p class="thirtytwo">Hohner's "Clavinet" is essentially an electric clavichord.</p>
+	<p class="thirtythree">Hohner's "Clavinet" is essentially an electric clavichord.</p>
+
+	<h2>Border Style</h2>
+	<p class="thirtyfour">This is solid border</p>
+	<p class="thirtyfive">This is dotted border</p>
+	<p class="thirtysix">This is dassed border</p>
+	<p class="thirtyseven">This is double border</p>
+	<p class="thirtyeight">This is groove border</p>
+	<p class="thirtynine">This is ridge border</p>
+	<p class="forty">This is inset border</p>
+	<p class="fortyone">This is outset border</p>
+
+	<h2>Border Color</h2>
+	<p class="fortytwo">This is a Single Color Border</p>
+	<p class="fortythree">This is a Multi Color Border</p>
+	<p class="fortyfour">This is a Two Color Border</p>
+
+	<h2>Padding</h2>
+	<p class="fortyfive">This example does not contains padding</p>
+	<p class="fortysix">This example contains padding</p>
+	<p class="fortyseven">This example contains different padding on top, bottom, left, right</p>
+
+	<h2>Margin</h2>
+	<p>Margin is the gap outside the border</p>
+	<p>Here the margin you can see between the two borders</p>
+	<p class="fortyeight">Analog synthesizers are often said to have a "warmer" sound than their digital counterparts.
+	</p>
+	<p class="fortynine">This contains Margin.</p>
+	<p class="fifty">This contains multi-margin.</p>
+
+	<h2>Centering Content</h2>
+	<p>If you want to center a box on the page (or center it inside the element that it sits in), you can set the
+		left-margin and right-margin to <br>
+		In order to center a box on the page, you need to set a width for the box (otherwise it will take up the full
+		width of the page). <br>
+		Once you have specified the width of the box, setting the left and right margins to auto will make the browser
+		put an equal gap on each side of the box. This centers the box on the page (or within the element that the box
+		sits inside). <br>
+		In order for this to work in older browsers (particularly IE6), the element that the box sits inside should have
+		a text-align property with its value set to center. <br>
+		The text-align property is inherited by child elements. You therefore also need to specify the text-align
+		property on the centered box if you do not want the text inside it to be centered. <br>
+	</p>
+	<p class="fiftyone">Analog synthesizers are often said to have a "warmer" sound than their digital counterparts.</p>
+	<p class="fiftytwo">Analog synthesizers are often said to have a "warmer" sound than their digital counterparts.</p>
+
+	<h2>Change Inline Block</h2>
+	<ul>
+		<li class="twentyone">Home</li>
+		<li class="twentyone">Product</li>
+		<li class="twentyone twentytwo">Services</li>
+		<li class="twentyone">About</li>
+		<li class="twentyone">Contact</li>
+	</ul>
+
+	<h2>Hiding Boxes</h2>
+	<ul>
+		<li class="twentythree">Homes</li>
+		<li class="twentythree">Products</li>
+		<li class="comingsoon twentythree">Services</li>
+		<li class="twentythree">About</li>
+		<li class="twentythree">Contact</li>
+	</ul>
+
+	<h2>Border Images</h2>
+	<img src="../static/img/Screenshot (302).png" alt="...">
+
+	<h2>Box Shadows</h2>
+	<p class="fiftythree">h</p>
+	<p class="fiftyfour">h</p>
+	<p class="fiftyfive">h</p>
+	<p class="fiftysix">h</p>
+	<p class="fiftyseven">h</p>
+
+	<h2>Rounded Corners</h2>
+	<p class="fiftyeight">Pet Sounds featured a number of unconventional instruments such as bicycle bells, buzzing
+		organs, harpsichords, flutes, Electro-Theremin, dog whistles, trains, Hawaiian-sounding string instruments,
+		Coca-Cola cans and barking dogs.</p>
+
+	<h2>Elliptical Shapes</h2>
+	<p>To create more complex shapes, you can specify different distances for the horizontal and the vertical parts of
+		the rounded corners. <br>
+		For example, this will create a radius that is wider than it is tall: <br>
+		border-radius: 80px 50px; <br>
+		You can target just one corner using the individual properties for that corner: <br>
+		border-top-left-radius: 80px 50px; <br>
+		There is also a shorthand for targetting all four corners at once; first you specify the four horizontal values,
+		then the four vertical values, as shown in the second shape on the left. <br>
+		You can even create a circle by taking a square box and making the border-radius the same height as the square,
+		as shown in the third shape on the left.
+	</p>
+	<p class="fiftynine"></p>
+	<p class="sixty"></p>
+	<p class="sixtyone"></p>
+
+	<h2>Example of chapter boxes</h2>
+	<div id="div2">
+		<div id="page">
+			<div id="logo">
+				<img src="../static/img/the analog specialists.gif" alt="The Analog Specialists" />
+			</div>
+			<ul class="ul">
+				<li class="li"><a href="#" id="on" class="a1">Home</a></li>
+				<li class="li"><a href="#" class="a1">For Sale</a></li>
+				<li class="li"><a href="#" class="a1">Repairs</a></li>
+				<li class="li"><a href="#" class="a1">About</a></li>
+				<li class="li"><a href="#" class="a1">Contact</a></li>
+			</ul>
+			<p id="p2"><img src="../static/img/rhodes.jpg" alt="Fender Rhodes"><img
+					src="../static/img/Hohner Clavinet.jpg" alt="Hohner Clavinet"><img
+					src="../static/img/Wurlitzer EP200.png" alt="Wurlitzer EP200"></p>
+			<p id="p2">We specialise in the sales and repair of classic keyboards, in particular the Fender Rhodes,
+				Wurlitzer
+				EP200, and Hohner Clavinet.</p>
+		</div>
+	</div>
+	<br>
+	<hr>
+
+	<h1>Lists, Tables And Forms</h1>
+	<h2>Bullet Point Styles</h2>
+	<img src="../static/img/Screenshot (304).png" alt="...">
+	<ol>
+		<li style="list-style-type: lower-alpha;">Life</li>
+		<li style="list-style-type: upper-alpha;">Nature</li>
+		<li style="list-style-type: decimal-leading-zero;">Love</li>
+		<li style="list-style-type: upper-roman;">Time And Enternity</li>
+		<li style="list-style-type: lower-roman;">The Single Hound</li>
+	</ol>
+
+	<h2>Images For Bullets</h2>
+	<img src="../static/img/Screenshot (305).png" alt="...">
+
+	<h2>Positioning The Marker</h2>
+
+	<p style="color: orangered;"><u>Inside</u>: The marker sits inside the box of text (which is indented).
+		<br> This is inside position marker:-</p>
+	<ul class="illuminations ul1">
+		<li class="li1">That idol, black eyes and ...</li>
+		<li class="li1">Gracious son of Pan! ...</li>
+		<li class="li1">When the world is reduced ...</li>
+	</ul>
+
+	<p style="color: orangered;"><u>Outside</u>: The marker sits to the left of the block of text. (This is the
+		default behaviour if this property is not used.)
+		<br> This is outside position marker:-</p>
+	<ul class="season ul1">
+		<li class="li1">Once, if my memory serves ...</li>
+		<li class="li1">Hadn't I once a youth ...</li>
+		<li class="li1">Autumn already! ...</li>
+	</ul>
+
+	<h2>List shorthand</h2>
+	<ul style="list-style: circle;">
+		<li>This</li>
+		<li>Is</li>
+		<li>The</li>
+		<li>Best</li>
+	</ul>
+
+	<h2>Table Properties</h2>
+	<div class="div2">
+		<table class="table">
+			<tr>
+				<th class="td th">Author</th>
+				<th class="td th">Title</th>
+				<th class="td th money">Reserve Price</th>
+				<th class="td th money">Current Bid</th>
+			</tr>
+			<tr class="tr">
+				<td class="td">E.E. Cumming</td>
+				<td class="td">Tulips & Chimneys</td>
+				<td class="td money">$2000.00</td>
+				<td class="td money">$2642.50</td>
+			</tr>
+			<tr class="even tr">
+				<td class="td">Charles'd Orleans</td>
+				<td class="td">Poemes</td>
+				<td class="td money"></td>
+				<td class="td money">$5866.00</td>
+			</tr>
+			<tr class="tr">
+				<td class="td">T.S. Eliot</td>
+				<td class="td">Poems 1909-1925</td>
+				<td class="td money">$1250.00</td>
+				<td class="td money">$8499.35</td>
+			</tr>
+			<tr class="even tr">
+				<td class="td">Sylivia Plath</td>
+				<td class="td">The Colossus</td>
+				<td class="td money"></td>
+				<td class="td money">$1031.72</td>
+			</tr>
+		</table>
+		<p>This include:-<b>width</b> to set the width of the table <b>,</b>
+			<b>padding</b> to set the space between the border of each table cell and its content <b>,</b>
+			<b>text-transform</b> to convert the content of the table headers to uppercase <b>,</b>
+			<b>letter-spacing, font-size</b> to add additional styling to the content of the table headers <b>,</b>
+			<b>border-top, border-bottom</b> to set borders above and below the table headers <b>,</b>
+			<b>text-align</b> to align the writing to the left of some table cells and to the right of the others
+			<b>,</b>
+			<b>background-color</b> to change the background color of the alternating table rows <b>,</b>
+			<b>:hover</b> to highlight a table row when a user's mouse goes over it <b>,</b>
+			<br><br>
+			<b>There are some tips for styling tables:-</b> <br>
+			<b>Give cells Padding</b>: If the text in a table cell either touches a border (or another cell), it becomes
+			much harder to read. Adding padding helps to improve readability.
+			<b>Distinguish Headings</b>Putting all table headings in bold (the default style for the <b>"th"</b>
+			element) makes them easier to read. You can also make headings uppercase and then either add a background
+			color or an underline to clearly distinguish them from content.
+			<b>Shade Alternate Rows</b>Shading every other row can help users follow along the lines. Use a subtle
+			distinction from the normal color of the rows to keep the table looking clean
+			<b>Align Numerals</b>You can use the text-align property to align the content of any column that contains
+			numbers to the right, so that large numbers are clearly distinguished from smaller ones.
+		</p>
+	</div>
+
+	<h2>Border On Empty Cells</h2>
+	<p>This is showing empty cells:-</p>
+	<table class="one">
+		<tr>
+			<td class="td2">1</td>
+			<td class="td2">2</td>
+		</tr>
+		<tr>
+			<td class="td2">3</td>
+			<td class="td2"></td>
+		</tr>
+	</table>
+	<p>This is not showing empty cells:-</p>
+	<table class="two">
+		<tr>
+			<td class="td2">1</td>
+			<td class="td2">2</td>
+		</tr>
+		<tr>
+			<td class="td2">3</td>
+			<td class="td2"></td>
+		</tr>
+	</table>
+
+	<h2>Gaps Between Cells</h2>
+	<table id="cells">
+		<tr>
+			<td id="cells">1</td>
+			<td id="cells">2</td>
+		</tr>
+		<tr>
+			<td id="cells">3</td>
+			<td id="cells">4</td>
+		</tr>
+	</table>
+
+	<h1>Styling Forms</h1>
+	<h2>Styling Text Input</h2>
+	<form action="http://localhost:5500/templates/boom.html">
+		<label for="email">Email</label>
+		<input type="email" class="input2 input">
+		<label for="twitter">Twitter</label>
+		<input type="twitter" class="input3 input">
+		<label for="web">Web</label>
+		<input type="web" class="input4 input">
+	</form>
+
+	<h2>Styling Submit Buttons</h2>
+	<input type="submit" class="submit2">
+
+	<h2>Styling Fieldsets And Legends</h2>
+	<form action="http://localhost:5500/templates/boom.html" method="post">
+		<fieldset class="fieldset">
+			<legend class="legend">Your Details:</legend><br>
+			<label for="Name">Name:
+				<input type="text" name="text" class="input5"></label><br /><br />
+			<label for="Email">Email:
+				<input type="Email" name="Email" class="input5"></label><br><br>
+			<input type="submit" value="Subscribe" name="Subscribe" class="input6"><br>
+		</fieldset>
+	</form>
+
+	<h2>Cursor Styling</h2>
+	<!-- Here are the most commonly used values for this property: 
+	1. auto 
+	2. crosshair 
+	3. default 
+	4. pointer 
+	5. move 
+	6. text 
+	7. wait 
+	8. help url("cursor.gif"); -->
+	<a href="http://www.whitmanarchive.org" class="a2">Walt Whitman</a>
+
+	<h1>Example of list, tables and forms</h1>
+	<div class="div3">
+		<h1>Poetry Workshops</h1>
+		<p>We will be conducting a number of poetry workshops and symposiums throughout the year.</p>
+		<p>Please note that the following events are free to members:</p>
+		<ul>
+			<li class="li2">A Poetic Perspective</li>
+			<li class="li2">Walt Whitman at War</li>
+			<li class="li2">Found Poems and Outsider Poetry</li>
+		</ul>
+		<table class="table1">
+			<tr class="head2">
+				<th class="td3"></th>
+				<th class="td3">New York</th>
+				<th class="td3">Chicago</th>
+				<th class="td3">San Francisco</th>
+			</tr>
+			<tr>
+				<th class="td1">A Poetic Perspective</th>
+				<td class="td1">Sat, 4 Feb 2012<br />11am - 2pm</td>
+				<td class="td1">Sat, 3 Mar 2012<br />11am - 2pm</td>
+				<td class="td1">Sat, 17 Mar 2012<br />11am - 2pm</td>
+			</tr>
+			<tr class="even">
+				<th class="td1">Walt Whitman at War</th>
+				<td class="td1">Sat, 7 Apr 2012<br />11am - 1pm</td>
+				<td class="td1">Sat, 5 May 2012<br />11am - 1pm</td>
+				<td class="td1">Sat, 19 May 2012<br />11am - 1pm</td>
+			</tr>
+			<tr>
+				<th class="td1">Found Poems &amp; Outsider Poetry</th>
+				<td class="td1">Sat, 9 Jun 2012<br />11am - 2pm</td>
+				<td class="td1">Sat, 7 Jul 2012<br />11am - 2pm</td>
+				<td class="td1">Sat, 21 Jul 2012<br />11am - 2pm</td>
+			</tr>
+			<tr class="even">
+				<th class="td1">Natural Death: An Exploration</th>
+				<td class="td1">Sat, 4 Aug 2012<br />11am - 4pm</td>
+				<td class="td1">Sat, 8 Sep 2012<br />11am - 4pm</td>
+				<td class="td1">Sat, 15 Sep 2012<br />11am - 4pm</td>
+			</tr>
+		</table>
+		<form action="http://www.example.com/form.php" method="get">
+			<fieldset class="fieldset1">
+				<legend class="legend1">Register your interest</legend>
+				<p><label class="title" for="name">Your name:</label>
+					<input type="text" name="name" id="name" class="input5"><br />
+					<label class="title" for="email">Your email:</label>
+					<input type="text" name="email" id="email" class="input5"></p>
+				<p><label for="location" class="title">Your closest center:</label>
+					<select name="location" id="location">
+						<option value="ny">New York</option>
+						<option value="il">Chicago</option>
+						<option value="ca">San Francisco</option>
+					</select></p>
+				<span class="title">Are you a member?</span>
+				<label><input type="radio" name="member" value="yes" /> Yes</label>
+				<label><input type="radio" name="member" value="no" /> No</label></p>
+			</fieldset>
+			<div class="submit"><input type="submit" value="Register" class="input6" />
+			</div>
+		</form>
+	</div>
+
+	<h1>Layout</h1>
+	<div class="div4">
+		<h2 class="h2">Normal Flow</h2>
+		<p class="p">In 1817 Baron von Drais invented a walking machine that would help him get around the royal
+			gardens faster...</p>
+		<img src="../static/img/normal flow.png" alt="normal flow">
+	</div>
+
+	<h2>Relative Positioning</h2>
+	<div>
+		<h3>The Evolution Of The Bicycle</h3>
+		<p class="example1">In 1817 Baron Von Drais invented a walking machine that would help him get around the
+			royal gardens faster</p>
+		<p class="example">In 1817 Baron Von Drais invented a walking machine that would help him get around the
+			royal gardens faster</p>
+		<p class="example1">In 1817 Baron Von Drais invented a walking machine that would help him get around the
+			royal gardens faster</p>
+	</div>
+
+	<h2>Absolute Positioning</h2>
+	<div>
+		<h3>The Evolution Of The Bicycle</h3>
+		<p class="p2">In 1817 Baron Vos Drais invented a walking machine that would help him get around the royals
+			gardens
+			faster..</p>
+	</div>
+
+	<h2>Fixed Positioning</h2>
+	<div>
+		<h3 class="h32">The Evolution Of The Bicycle</h3>
+		<p class="example3">In 1817 Baron Von Drais invented a walking machine that would help him get around the
+			royal gardens
+			faster..</p>
+		<p>The Position: fixed attribute is commented in the css file so you can go there for uncommenting the line
+			and see what happens if you add position:fixed in your css file</p>
+		<img src="../static/img/fixed positioning.png" alt="fixed positioning">
+	</div>
+
+	<h2>Floating Elements</h2>
+	<h3>The evoluton of the bicycle</h3>
+	<blockquote class="blockquote">"Life is like riding a bicycle. To keep your balance you must keep moving." <br>-
+		Albert Einstein
+	</blockquote>
+	<p>In 1817 Baron Vos Drais invented a walking machine that would help him get around the royal gardens faster:
+		two same-size in-line wheels, the front one steerable, mounted in a frame..</p>
+
+	<h2>Using Float To place elements side-by-side</h2>
+	<div class="div5">
+		<h3>The evolution of the bicycle </h3>
+		<p class="p3">Here float is left due to which all these boxes started to settle from the left.</p>
+		<p class="p3">Here float is left due to which all these boxes started to settle from the left.</p>
+		<p class="p3">Here float is left due to which all these boxes started to settle from the left.</p>
+		<p class="p3">Here float is left due to which all these boxes started to settle from the left.</p>
+		<p class="p3">Here float is left due to which all these boxes started to settle from the left.</p>
+	</div>
+
+	<br><br><br><br><br><br><br><br>
+
+	<h2>Clearing Floats</h2>
+	<div class="div6">
+		<p class="p4">The clear property allows you to say that no element (within the same containing element)
+			should touch the left or righthand sides of a box. It can take the following values:</p>
+		<p class="p4"><b>Left :-</b> The left-hand side of the box should not touch any other elements appearing
+			in the same containing element.</p>
+		<p class="p4"> <b>Right :-</b> The right-hand side of the box will not touch elements appearing in the
+			same containing element.</p>
+		<p class="p4 clear"> <b>Both :-</b> Neither the left nor right-hand sides of the box will touch elements
+			appearing in the same containing element.</p>
+		<p class="p4"> <b>None :-</b> Elements can touch either side.</p>
+		<p class="p4">In this example, the fourth paragraph has a class called clear. The CSS rule for this class
+			uses the clear property to indicate that nothing should touch the left-hand side of it. The fourth
+			paragraph is therefore moved further down the page so no other element touches its left-hand side.</p>
+	</div>
+
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+	<h2>Parents of floated elements: Problem</h2>
+	<div class="div7">
+		<p>If a containing element only contains floated elements, some browsers will treat it as if it is zero
+			pixels tall but chrome don't. You can use a solution for this which is written in css file as "Parents
+			of
+			floated elements: Solution" <br>
+			As you can see in this example, the one pixel border assigned to the containing element has collapsed,
+			so the box looks like a two pixel line.</p>
+	</div>
+
+	<h2>Creating Multi-Column Layouts with float</h2>
+	<div class="column1of2">
+		<h3>The First Bicycle</h3>
+		<p>In 1817 Baron von Drais invented a walking machine that would help him get around the royal gardens
+			faster: two same-size ...</p>
+	</div>
+	<div class="column2of2">
+		<h3>Bicycle Timeline</h3>
+	</div>
+
+	<br><br><br><br><br><br><br>
+
+	<h1>A Fixed Width Layout</h1>
+	<div class="div8">
+		<div>
+			<h1 id="header">Logo</h1>
+			<div id="nav">
+				<ul style="font-size: 18px; text-align: center;">
+					<li class="li3"><a href="" style="text-decoration: none;">Home</a></li>
+					<li class="li3"><a href="" style="text-decoration: none;">Products</a></li>
+					<li class="li3"><a href="" style="text-decoration: none;">Services</a></li>
+					<li class="li3"><a href="" style="text-decoration: none;">About</a></li>
+					<li class="li3"><a href="" style="text-decoration: none;">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="content">
+			<div id="feature">
+				<p>Feature</p>
+			</div>
+			<div class="column1">
+				<p>Column One</p>
+			</div>
+			<div class="column2">
+				<p>Column Two</p>
+			</div>
+			<div class="column3">
+				<p>Column Three</p>
+			</div>
+		</div>
+		<div id="footer">
+			<p>&copy; Copyright 2020</p>
+		</div>
+	</div>
+
+	<h2>Disable Download Image</h2>
+	<p>If you want to disable download image from the website add "pointer-events:none;" in css</p>
+
+	<h2>Disable Copy And Select Text</h2>
+	<p>If you want to disable select and copy text you can do that by adding "user-select:none;" in css</p>
+
+	<h2>Multiple Style Sheets</h2>
+	<p>You can import the css files in a css file using this import element:-</p>
+	<img src="../static/img/Multiple Style Sheets.png" alt="Multiple Style Sheets">
+
+
+	<h1>Example of Layout</h1>
+	<h2>For professional you can go to professional.html page aqnd search for example of layout.</h2>
+	<div class="div9">
+		<div class="header">
+			<div class="container_12">
+				<div class="grid_5">
+					<img src="../static/img/pedal faster logo.png" alt="Pedal Faster - The modern bicycle magazine"
+						width="216" height="37" class="logo" />
+					<img src="../static/img/pedal faster header triangle.png" alt="" width="116" height="100" />
+				</div>
+				<div class="nav grid_7">
+					<a href="" class="a3">home</a> /
+					<a href="" class="a3">news</a> /
+					<a href="" class="a3">archives</a> /
+					<a href="" class="a3">about</a> /
+					<a href="" class="a3">contact</a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="main-story container_12">
+				<div class="grid_6 push_6">
+					<h1 class="h1"><a href="" class="a3">Fixed Gear Forever</a></h1>
+				</div>
+				<div class="intro1 grid_3 push_9">
+					<p class="date">16 APRIL 2011</p>
+					<p>The veloheld combines minimalist design with superb quality. Devoid of excessive graphics
+						and
+						gear shift components, the veloheld product range delights us with its beauty and
+						simplicity. The black and white (yin and yang?) bicycles feature a short wheelbase, a
+						single
+						gear and a narrow handlebar... All you need to explore the city streets.</p>
+					<p>For those who want to create their bike themselves, the veloheld frames come in three
+						sizes
+						and two colours and are the perfect starting point. <a href="" class="a3">Continue
+							reading...</a>
+					</p>
+				</div>
+			</div><!-- .main-story -->
+			<div class="more-articles container_12">
+				<h2 class="grid_12 h22"><a href="" class="a3">More Articles</a></h2>
+				<div class="grid_3">
+					<img src="../static/img/pedal faster 1.jpg" alt="The road ahead" width="220" height="125" />
+					<p><a href="" class="a3">On the Road: From the fixed gear fanatic's point of view</a></p>
+					<p><a href="" class="a3">Brand History: Pashley Cycles - hand-built in England</a></p>
+					<p><a href="" class="a3">Frame Wars: Innovations in cycle manufacture and repair</a></p>
+				</div>
+				<div class="grid_3">
+					<img src="../static/img/pedal faster 2.jpg" alt="Sketchbook" width="220" height="125" />
+					<p><a href="" class="a3">Touring Diary: A sketchbook in your basket</a></p>
+					<p><a href="" class="a3">Top Ten Newcomers for 2012: A peek at what's to come</a></p>
+					<p><a href="" class="a3">InnerTube: The best cycling videos on the web</a></p>
+				</div>
+				<div class="grid_3">
+					<img src="../static/img/pedal faster 3.jpg" alt="Repair shop sign" width="220" height="125" />
+					<p><a href="" class="a3">Product Review: All baskets were not created equal</a></p>
+					<p><a href="" class="a3">Going Public: Out &amp; about with the founder of Public</a></p>
+					<p><a href="" class="a3">Cycle Lane Defence: Know your rights</a></p>
+				</div>
+				<div class="grid_3">
+					<img src="../static/img/pedal faster 4.jpg" alt="Schwinn Spitfire" width="220" height="125" />
+					<p><a href="" class="a3">Bicycle Hall of Fame: The 1958 Schwinn Spitfire</a></p>
+					<p><a href="" class="a3">Reader Survey: Share your thoughts with us!</a></p>
+					<p><a href="" class="a3">Chain Gang: The evolution of the humble bike chain</a></p>
+				</div>
+			</div><!-- .more-articles -->
+		</div><!-- .wrapper -->
+		<div class="footer clearfix">
+			<div class="container_12">
+				<p class="grid_12">
+					<a href="#" class="a3">Legal Information</a> |
+					<a href="#" class="a3">Privacy Policy</a> |
+					<a href="#" class="a3">Copyright &copy; Pedal Faster 2011</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<h1>Images</h1>
+	<h2>Controlling Size Of Images In CSS</h2>
+	<img class="large" src="http://www.htmlandcssbook.com/code-samples/chapter-16/images/magnolia-large.jpg" alt="...">
+	<img class="medium" src="http://www.htmlandcssbook.com/code-samples/chapter-16/images/magnolia-medium.jpg"
+		alt="...">
+	<img class="small" src="http://www.htmlandcssbook.com/code-samples/chapter-16/images/magnolia-small.jpg" alt="...">
+
+	<h2>Aligning Images Using CSS</h2>
+	<p class="xlmedium"><img class="align-left medium"
+			src="http://www.htmlandcssbook.com/code-samples/chapter-16/images/magnolia-medium.jpg"
+			alt="..."><b><i>Magnolia</i></b> is a large genus that contains over 200 flowering plant species. It is
+		named after French botanist Pierre Magnol and, having evolved before bees appeared, the flowers were
+		developed to encourage pollination by beetle.
+	<p>
+	<p class="xlmedium"><img class="align-right medium"
+			src="http://www.htmlandcssbook.com/code-samples/chapter-16/images/magnolia-medium.jpg" alt="...">Some
+		magnolias , such as <i>Magnolia Stellata</i> and <i>Magnolia Soulangeana</i>, flower quite early in the
+		spring before the leaves open.</p>
+
+	<br><br><br><br><br><br><br><br>
+
+	<h2>Centering Images Using CSS</h2>
+	<p class="xlmedium"><img class="medium align-center"
+			src="http://www.htmlandcssbook.com/code-samples/chapter-16/images/magnolia-medium.jpg" alt="...">
+		<b><i>Magnolia</i></b> is a large genus that contains over 200 flowering plant species. It is named after
+		French botanist Pierre Magnol and, having evolved before bees appeared, the flowers were developed to
+		encourage pollination by beetle.</p>
+
+	<h2>Background Images</h2>
+	<div class="xmwd">
+		<h3>Planting Guide</h3>
+		<h4>Magnolia</h4>
+		<p>Magnolia grandiflora, commonly known as the Southern magnolia or bull bay, is a tree of the family
+			Magnoliaceae native to the southeastern United States, from coastal Virginia south to central Florida,
+			and west to eastern Texas and Oklahoma. Reaching 27.5 m (90 ft) in height, it is a large striking
+			evergreen tree with large dark green leaves and large white fragrant flowers. Widely cultivated around
+			the world, over a hundred cultivars have been bred and marketed commercially. The timber is hard and
+			heavy, and has been used commercially to make furniture, pallets, and veneer.</p>
+		<h4>Ranunculus</h4>
+		<p>Ranunculus asiaticus (Persian Buttercup) is a species of buttercup (Ranunculus) native to the eastern
+			Mediterranean region in southwestern Asia, southeastern Europe (Crete, Karpathos and Rhodes), and
+			northeastern Africa. It is a herbaceous perennial plant growing to 45 cm tall, with simple or branched
+			stems. The basal leaves are three-lobed, with leaves higher on the stems more deeply divided; like the
+			stems, they are downy or hairy. The flowers are 3-5 cm diameter, variably red to pink, yellow, or white,
+			with one to several flowers on each stem.</p>
+		<h4>Tulip</h4>
+		<p>Tulipa gesneriana L. or "Didier's tulip" is a plant belonging to the family of Liliaceae. This species
+			has uncertain origins, possibly from Asia, and has become naturalised in south-west Europe. Most of the
+			cultivated species, subspecies and cultivars of tulip are derived from Tulipa gesneriana. The flower and
+			bulb can cause dermatitis through the allergen, tuliposide A, even though the bulbs may be consumed with
+			little ill-effect. The sweet-scented bisexual flowers appear during April and May. Bulbs are extremely
+			resistant to frost, and can tolerate temperatures well below freezing - a period of low temperature is
+			necessary to induce proper growth and flowering, triggered by an increase in sensitivity to the
+			phytohormone auxin. The bulbs may be dried and pulverised and added to cereals or flour.</p>
+	</div>
+
+	<h2>Background Images (Element)</h2>
+	<div>
+		<h3 class="xlmedium" style="font-size: 30px;">Planting Guide</h3>
+		<h4 class="xlmedium xmdw">Magnolia</h4>
+		<p class="xmwd">Magnolia grandiflora, commonly known as the Southern magnolia or bull bay, is a tree of the
+			family
+			Magnoliaceae native to the southeastern United States, from coastal Virginia south to central Florida,
+			and west to eastern Texas and Oklahoma. Reaching 27.5 m (90 ft) in height, it is a large striking
+			evergreen tree with large dark green leaves and large white fragrant flowers. Widely cultivated around
+			the world, over a hundred cultivars have been bred and marketed commercially. The timber is hard and
+			heavy, and has been used commercially to make furniture, pallets, and veneer.</p>
+		<h4 class="xlmedium xmdw">Ranunculus</h4>
+		<p class="xmwd">Ranunculus asiaticus (Persian Buttercup) is a species of buttercup (Ranunculus) native to the
+			eastern
+			Mediterranean region in southwestern Asia, southeastern Europe (Crete, Karpathos and Rhodes), and
+			northeastern Africa. It is a herbaceous perennial plant growing to 45 cm tall, with simple or branched
+			stems. The basal leaves are three-lobed, with leaves higher on the stems more deeply divided; like the
+			stems, they are downy or hairy. The flowers are 3-5 cm diameter, variably red to pink, yellow, or white,
+			with one to several flowers on each stem.</p>
+		<h4 class="xlmedium xmdw">Tulip</h4>
+		<p class="xmwd">Tulipa gesneriana L. or "Didier's tulip" is a plant belonging to the family of Liliaceae. This
+			species
+			has uncertain origins, possibly from Asia, and has become naturalised in south-west Europe. Most of the
+			cultivated species, subspecies and cultivars of tulip are derived from Tulipa gesneriana. The flower and
+			bulb can cause dermatitis through the allergen, tuliposide A, even though the bulbs may be consumed with
+			little ill-effect. The sweet-scented bisexual flowers appear during April and May. Bulbs are extremely
+			resistant to frost, and can tolerate temperatures well below freezing - a period of low temperature is
+			necessary to induce proper growth and flowering, triggered by an increase in sensitivity to the
+			phytohormone auxin. The bulbs may be dried and pulverised and added to cereals or flour.</p>
+	</div>
+
+	<h2>Repeating Images</h2>
+	<div class="fjs2">
+		<h3 class="" style="font-size: 25px; color: white;">Planting Guide</h3>
+		<h4 class="xlmedium xmdw" style="margin-top: 35px;">Magnolia</h4>
+		<p>Magnolia grandiflora, commonly known as the Southern magnolia or bull bay, is a tree of the
+			family
+			Magnoliaceae native to the southeastern United States, from coastal Virginia south to central Florida,
+			and west to eastern Texas and Oklahoma. Reaching 27.5 m (90 ft) in height, it is a large striking
+			evergreen tree with large dark green leaves and large white fragrant flowers. Widely cultivated around
+			the world, over a hundred cultivars have been bred and marketed commercially. The timber is hard and
+			heavy, and has been used commercially to make furniture, pallets, and veneer.</p>
+		<h4 class="xlmedium xmdw">Ranunculus</h4>
+		<p>Ranunculus asiaticus (Persian Buttercup) is a species of buttercup (Ranunculus) native to the
+			eastern
+			Mediterranean region in southwestern Asia, southeastern Europe (Crete, Karpathos and Rhodes), and
+			northeastern Africa. It is a herbaceous perennial plant growing to 45 cm tall, with simple or branched
+			stems. The basal leaves are three-lobed, with leaves higher on the stems more deeply divided; like the
+			stems, they are downy or hairy. The flowers are 3-5 cm diameter, variably red to pink, yellow, or white,
+			with one to several flowers on each stem.</p>
+		<h4 class="xlmedium xmdw">Tulip</h4>
+		<p>Tulipa gesneriana L. or "Didier's tulip" is a plant belonging to the family of Liliaceae. This
+			species
+			has uncertain origins, possibly from Asia, and has become naturalised in south-west Europe. Most of the
+			cultivated species, subspecies and cultivars of tulip are derived from Tulipa gesneriana. The flower and
+			bulb can cause dermatitis through the allergen, tuliposide A, even though the bulbs may be consumed with
+			little ill-effect. The sweet-scented bisexual flowers appear during April and May. Bulbs are extremely
+			resistant to frost, and can tolerate temperatures well below freezing - a period of low temperature is
+			necessary to induce proper growth and flowering, triggered by an increase in sensitivity to the
+			phytohormone auxin. The bulbs may be dried and pulverised and added to cereals or flour.</p>
+	</div>
+
+	<h2>Background Attachment</h2>
+	<p>As you are seeing in attachment that the image is attch with the background if you scroll up or down it will not
+		hide if you add the class in body tag here the image is visible in the particular tag because i had added in a
+		small class. You can add it in the big elemt like body then it will look great</p>
+	<div class="bvdv">
+		<h3 class="xlmedium xmdw">Planting Guide</h3>
+		<h4 class="xlmedium xmdw">Magnolia</h4>
+		<p>Magnolia grandiflora, commonly known as the Southern magnolia or bull bay, is a tree of the
+			family
+			Magnoliaceae native to the southeastern United States, from coastal Virginia south to central Florida,
+			and west to eastern Texas and Oklahoma. Reaching 27.5 m (90 ft) in height, it is a large striking
+			evergreen tree with large dark green leaves and large white fragrant flowers. Widely cultivated around
+			the world, over a hundred cultivars have been bred and marketed commercially. The timber is hard and
+			heavy, and has been used commercially to make furniture, pallets, and veneer.</p>
+		<h4 class="xlmedium xmdw">Ranunculus</h4>
+		<p>Ranunculus asiaticus (Persian Buttercup) is a species of buttercup (Ranunculus) native to the
+			eastern
+			Mediterranean region in southwestern Asia, southeastern Europe (Crete, Karpathos and Rhodes), and
+			northeastern Africa. It is a herbaceous perennial plant growing to 45 cm tall, with simple or branched
+			stems. The basal leaves are three-lobed, with leaves higher on the stems more deeply divided; like the
+			stems, they are downy or hairy. The flowers are 3-5 cm diameter, variably red to pink, yellow, or white,
+			with one to several flowers on each stem.</p>
+		<h4 class="xlmedium xmdw">Tulip</h4>
+		<p>Tulipa gesneriana L. or "Didier's tulip" is a plant belonging to the family of Liliaceae. This
+			species
+			has uncertain origins, possibly from Asia, and has become naturalised in south-west Europe. Most of the
+			cultivated species, subspecies and cultivars of tulip are derived from Tulipa gesneriana. The flower and
+			bulb can cause dermatitis through the allergen, tuliposide A, even though the bulbs may be consumed with
+			little ill-effect. The sweet-scented bisexual flowers appear during April and May. Bulbs are extremely
+			resistant to frost, and can tolerate temperatures well below freezing - a period of low temperature is
+			necessary to induce proper growth and flowering, triggered by an increase in sensitivity to the
+			phytohormone auxin. The bulbs may be dried and pulverised and added to cereals or flour.</p>
+		<h4 class="xlmedium xmdw">Magnolia</h4>
+		<p>Magnolia grandiflora, commonly known as the Southern magnolia or bull bay, is a tree of the
+			family
+			Magnoliaceae native to the southeastern United States, from coastal Virginia south to central Florida,
+			and west to eastern Texas and Oklahoma. Reaching 27.5 m (90 ft) in height, it is a large striking
+			evergreen tree with large dark green leaves and large white fragrant flowers. Widely cultivated around
+			the world, over a hundred cultivars have been bred and marketed commercially. The timber is hard and
+			heavy, and has been used commercially to make furniture, pallets, and veneer.</p>
+		<h4 class="xlmedium xmdw">Ranunculus</h4>
+		<p>Ranunculus asiaticus (Persian Buttercup) is a species of buttercup (Ranunculus) native to the
+			eastern
+			Mediterranean region in southwestern Asia, southeastern Europe (Crete, Karpathos and Rhodes), and
+			northeastern Africa. It is a herbaceous perennial plant growing to 45 cm tall, with simple or branched
+			stems. The basal leaves are three-lobed, with leaves higher on the stems more deeply divided; like the
+			stems, they are downy or hairy. The flowers are 3-5 cm diameter, variably red to pink, yellow, or white,
+			with one to several flowers on each stem.</p>
+		<h4 class="xlmedium xmdw">Tulip</h4>
+		<p>Tulipa gesneriana L. or "Didier's tulip" is a plant belonging to the family of Liliaceae. This
+			species
+			has uncertain origins, possibly from Asia, and has become naturalised in south-west Europe. Most of the
+			cultivated species, subspecies and cultivars of tulip are derived from Tulipa gesneriana. The flower and
+			bulb can cause dermatitis through the allergen, tuliposide A, even though the bulbs may be consumed with
+			little ill-effect. The sweet-scented bisexual flowers appear during April and May. Bulbs are extremely
+			resistant to frost, and can tolerate temperatures well below freezing - a period of low temperature is
+			necessary to induce proper growth and flowering, triggered by an increase in sensitivity to the
+			phytohormone auxin. The bulbs may be dried and pulverised and added to cereals or flour.</p>
+		<h4 class="xlmedium xmdw">Magnolia</h4>
+		<p>Magnolia grandiflora, commonly known as the Southern magnolia or bull bay, is a tree of the
+			family
+			Magnoliaceae native to the southeastern United States, from coastal Virginia south to central Florida,
+			and west to eastern Texas and Oklahoma. Reaching 27.5 m (90 ft) in height, it is a large striking
+			evergreen tree with large dark green leaves and large white fragrant flowers. Widely cultivated around
+			the world, over a hundred cultivars have been bred and marketed commercially. The timber is hard and
+			heavy, and has been used commercially to make furniture, pallets, and veneer.</p>
+		<h4 class="xlmedium xmdw">Ranunculus</h4>
+		<p>Ranunculus asiaticus (Persian Buttercup) is a species of buttercup (Ranunculus) native to the
+			eastern
+			Mediterranean region in southwestern Asia, southeastern Europe (Crete, Karpathos and Rhodes), and
+			northeastern Africa. It is a herbaceous perennial plant growing to 45 cm tall, with simple or branched
+			stems. The basal leaves are three-lobed, with leaves higher on the stems more deeply divided; like the
+			stems, they are downy or hairy. The flowers are 3-5 cm diameter, variably red to pink, yellow, or white,
+			with one to several flowers on each stem.</p>
+		<h4 class="xlmedium xmdw">Tulip</h4>
+		<p>Tulipa gesneriana L. or "Didier's tulip" is a plant belonging to the family of Liliaceae. This
+			species
+			has uncertain origins, possibly from Asia, and has become naturalised in south-west Europe. Most of the
+			cultivated species, subspecies and cultivars of tulip are derived from Tulipa gesneriana. The flower and
+			bulb can cause dermatitis through the allergen, tuliposide A, even though the bulbs may be consumed with
+			little ill-effect. The sweet-scented bisexual flowers appear during April and May. Bulbs are extremely
+			resistant to frost, and can tolerate temperatures well below freezing - a period of low temperature is
+			necessary to induce proper growth and flowering, triggered by an increase in sensitivity to the
+			phytohormone auxin. The bulbs may be dried and pulverised and added to cereals or flour.</p>
+	</div>
+
+	<h2>Background Position</h2>
+	<div class="bdcb">
+		<h3 class="xlmedium">Planting Guide</h3>
+		<h4 class="xlmedium xmdw">Magnolia</h4>
+		<p>Magnolia grandiflora, commonly known as the Southern magnolia or bull bay, is a tree of the
+			family
+			Magnoliaceae native to the southeastern United States, from coastal Virginia south to central Florida,
+			and west to eastern Texas and Oklahoma. Reaching 27.5 m (90 ft) in height, it is a large striking
+			evergreen tree with large dark green leaves and large white fragrant flowers. Widely cultivated around
+			the world, over a hundred cultivars have been bred and marketed commercially. The timber is hard and
+			heavy, and has been used commercially to make furniture, pallets, and veneer.</p>
+		<h4 class="xlmedium xmdw">Ranunculus</h4>
+		<p>Ranunculus asiaticus (Persian Buttercup) is a species of buttercup (Ranunculus) native to the
+			eastern
+			Mediterranean region in southwestern Asia, southeastern Europe (Crete, Karpathos and Rhodes), and
+			northeastern Africa. It is a herbaceous perennial plant growing to 45 cm tall, with simple or branched
+			stems. The basal leaves are three-lobed, with leaves higher on the stems more deeply divided; like the
+			stems, they are downy or hairy. The flowers are 3-5 cm diameter, variably red to pink, yellow, or white,
+			with one to several flowers on each stem.</p>
+		<h4 class="xlmedium xmdw">Tulip</h4>
+		<p>Tulipa gesneriana L. or "Didier's tulip" is a plant belonging to the family of Liliaceae. This
+			species
+			has uncertain origins, possibly from Asia, and has become naturalised in south-west Europe. Most of the
+			cultivated species, subspecies and cultivars of tulip are derived from Tulipa gesneriana. The flower and
+			bulb can cause dermatitis through the allergen, tuliposide A, even though the bulbs may be consumed with
+			little ill-effect. The sweet-scented bisexual flowers appear during April and May. Bulbs are extremely
+			resistant to frost, and can tolerate temperatures well below freezing - a period of low temperature is
+			necessary to induce proper growth and flowering, triggered by an increase in sensitivity to the
+			phytohormone auxin. The bulbs may be dried and pulverised and added to cereals or flour.</p>
+	</div>
+
+	<h2>Background Position Percentage</h2>
+	<img src="../static/img/Screenshot (321).png" alt="...">
+	<div class="ivnd">
+		<h3 class="xlmedium">Planting Guide</h3>
+		<h4 class="xlmedium xmdw">Magnolia</h4>
+		<p>Magnolia grandiflora, commonly known as the Southern magnolia or bull bay, is a tree of the
+			family
+			Magnoliaceae native to the southeastern United States, from coastal Virginia south to central Florida,
+			and west to eastern Texas and Oklahoma. Reaching 27.5 m (90 ft) in height, it is a large striking
+			evergreen tree with large dark green leaves and large white fragrant flowers. Widely cultivated around
+			the world, over a hundred cultivars have been bred and marketed commercially. The timber is hard and
+			heavy, and has been used commercially to make furniture, pallets, and veneer.</p>
+		<h4 class="xlmedium xmdw">Ranunculus</h4>
+		<p>Ranunculus asiaticus (Persian Buttercup) is a species of buttercup (Ranunculus) native to the
+			eastern
+			Mediterranean region in southwestern Asia, southeastern Europe (Crete, Karpathos and Rhodes), and
+			northeastern Africa. It is a herbaceous perennial plant growing to 45 cm tall, with simple or branched
+			stems. The basal leaves are three-lobed, with leaves higher on the stems more deeply divided; like the
+			stems, they are downy or hairy. The flowers are 3-5 cm diameter, variably red to pink, yellow, or white,
+			with one to several flowers on each stem.</p>
+		<h4 class="xlmedium xmdw">Tulip</h4>
+		<p>Tulipa gesneriana L. or "Didier's tulip" is a plant belonging to the family of Liliaceae. This
+			species
+			has uncertain origins, possibly from Asia, and has become naturalised in south-west Europe. Most of the
+			cultivated species, subspecies and cultivars of tulip are derived from Tulipa gesneriana. The flower and
+			bulb can cause dermatitis through the allergen, tuliposide A, even though the bulbs may be consumed with
+			little ill-effect. The sweet-scented bisexual flowers appear during April and May. Bulbs are extremely
+			resistant to frost, and can tolerate temperatures well below freezing - a period of low temperature is
+			necessary to induce proper growth and flowering, triggered by an increase in sensitivity to the
+			phytohormone auxin. The bulbs may be dried and pulverised and added to cereals or flour.</p>
+	</div>
+
+	<h2>Shorthand Background</h2>
+	<div class="vbid">
+		<h3 class="xlmedium">Planting Guide</h3>
+		<h4 class="xlmedium xmdw">Magnolia</h4>
+		<p>Magnolia grandiflora, commonly known as the Southern magnolia or bull bay, is a tree of the
+			family
+			Magnoliaceae native to the southeastern United States, from coastal Virginia south to central Florida,
+			and west to eastern Texas and Oklahoma. Reaching 27.5 m (90 ft) in height, it is a large striking
+			evergreen tree with large dark green leaves and large white fragrant flowers. Widely cultivated around
+			the world, over a hundred cultivars have been bred and marketed commercially. The timber is hard and
+			heavy, and has been used commercially to make furniture, pallets, and veneer.</p>
+		<h4 class="xlmedium xmdw">Ranunculus</h4>
+		<p>Ranunculus asiaticus (Persian Buttercup) is a species of buttercup (Ranunculus) native to the
+			eastern
+			Mediterranean region in southwestern Asia, southeastern Europe (Crete, Karpathos and Rhodes), and
+			northeastern Africa. It is a herbaceous perennial plant growing to 45 cm tall, with simple or branched
+			stems. The basal leaves are three-lobed, with leaves higher on the stems more deeply divided; like the
+			stems, they are downy or hairy. The flowers are 3-5 cm diameter, variably red to pink, yellow, or white,
+			with one to several flowers on each stem.</p>
+		<h4 class="xlmedium xmdw">Tulip</h4>
+		<p>Tulipa gesneriana L. or "Didier's tulip" is a plant belonging to the family of Liliaceae. This
+			species
+			has uncertain origins, possibly from Asia, and has become naturalised in south-west Europe. Most of the
+			cultivated species, subspecies and cultivars of tulip are derived from Tulipa gesneriana. The flower and
+			bulb can cause dermatitis through the allergen, tuliposide A, even though the bulbs may be consumed with
+			little ill-effect. The sweet-scented bisexual flowers appear during April and May. Bulbs are extremely
+			resistant to frost, and can tolerate temperatures well below freezing - a period of low temperature is
+			necessary to induce proper growth and flowering, triggered by an increase in sensitivity to the
+			phytohormone auxin. The bulbs may be dried and pulverised and added to cereals or flour.</p>
+	</div>
+
+	<h2>Image Rollovers And Sprites</h2>
+	<a class="button" id="add-to-basket" href="#">Add to basket</a>
+	<a class="button" id="framing-options" href="#">Framing Options</a>
+
+	<h2>Gradients</h2>
+	<div id="gradient">
+	</div>
+
+	<h1>Example of Images</h1>
+	<div class="iusdb">
+		<div id="wrapper">
+			<div class="img">
+				<img src="http://htmlandcssbook.com/code-samples/chapter-16/images/title.gif" alt="Galerie Botanique">
+				<p>Here is a selection of antique botanical prints held in our collection.</p>
+			</div>
+			<div class="entry">
+				<figure class="ondsb ivhn">
+					<img class="csib" src="http://htmlandcssbook.com/code-samples/chapter-16/images/print-01.jpg"
+						alt="...">
+					<figcaption class="dvni">Helianthus</figcaption>
+				</figure>
+			</div>
+			<div class="entry">
+				<figure class="ondsb ivhn">
+					<img class="csib" src="http://htmlandcssbook.com/code-samples/chapter-16/images/print-02.jpg"
+						alt="Passiflora" />
+					<figcaption class="dvni">Passiflora</figcaption>
+				</figure>
+			</div>
+			<div class="entry">
+				<figure class="ondsb ivhn">
+					<img class="csib" src="http://htmlandcssbook.com/code-samples/chapter-16/images/print-03.jpg"
+						alt="Nyctocalos" />
+					<figcaption class="dvni">Nyctocalos</figcaption>
+				</figure>
+			</div>
+			<div class="entry">
+				<figure class="ondsb ivhn">
+					<img class="csib" src="http://htmlandcssbook.com/code-samples/chapter-16/images/print-04.jpg"
+						alt="Polianthes" />
+					<figcaption class="dvni">Polianthes</figcaption>
+				</figure>
+			</div>
+			<div class="entry">
+				<figure class="ondsb ivhn">
+					<img class="csib" src="http://htmlandcssbook.com/code-samples/chapter-16/images/print-05.jpg"
+						alt="Ficus" />
+					<figcaption class="dvni">Ficus</figcaption>
+				</figure>
+			</div>
+			<div class="entry">
+				<figure class="ondsb ivhn">
+					<img class="cbib" src="http://htmlandcssbook.com/code-samples/chapter-16/images/print-06.jpg"
+						alt="Dendrobium" />
+					<figcaption class="dvni">Dendrobium</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+	<h1>Html 5 Layout</h1>
+	<h2>
+		Some of the elements are:-
+		<ul>
+			<li>header - This element can be used for grouping the header tag. You can write all the header code of a
+				page
+				in this element</li>
+			<li>nav - This element is used to contain the major navigational blocks on the site such as the primary site
+				navigation.
+			</li>
+			<li>div - You well know about this element. As it is used for grouping code. There are several more grouping
+				elements like nav, header, aside etc. but you can also use it too.</li>
+			<li>section - The section element groups related content together, and typically each section would have its
+				own heading.
+			</li>
+			<li>article - This element acts as a container for any section of a page that could stand alone and
+				potentially be syndicated.
+			</li>
+			<li>aside - This element has two purposes, depending on whether it is inside an article element or not. When
+				the aside element is used inside an article element, it should contain information that is related to
+				the article but not essential to its overall meaning. For example, a pullquote or glossary might be
+				considered as an aside to the article it relates to.
+				When the aside element is used outside of an article element, it acts as a container for content that is
+				related to the entire page. For example, it might contain links to other sections of the site, a list of
+				recent posts, a search box, or recent tweets by the author.
+			</li>
+			<li>footer - This element can be used for placing footer content inside it.</li>
+		</ul>
+	</h2>
+
+	<h2>Layout Elements for images
+		<ul>
+			<li>figure - It can be used to contain any content that is referenced from the main flow of an article (not
+				just images). Facility this element provide are images, videos, graphs, diagrams, code samples, text
+				(that support the main body of an article). You can add these things inside figure element. </li>
+			<li>figcaption - This element provide the text description of the figure element</li>
+		</ul>
+	</h2>
+
+	<h1>Process And Design</h1>
+	<h2 style="color: red;">Under this <u>process and design</u> you will came to know how to deliver to audience what
+		they are willing to search
+		for.</h2>
+	<div>
+		<h2>Who is the site for? </h2>
+		<h3>It can be helpful to ask some questions about the people you would expect to be interested in the subject of
+			your site.
+			<h3>TARGET AUDIENCE : INDIVIDUAL</h3>
+		</h3>
+		<ul>
+			<li>What is the name of the visitor?</li>
+			<li>What is the gender of the visitor?</li>
+			<li>What is the age range of your target audience?</li>
+			<li>Will your site appeal to more women or men? What is the mix?</li>
+			<li>Which country do your visitors live in?</li>
+			<li>Do they live in urban or rural areas?</li>
+			<li>What is the average income of visitors?</li>
+			<li>What level of education do they have?</li>
+			<li>What is their marital or family status?</li>
+			<li>What is their occupation?</li>
+			<li>How many hours do they work per week?</li>
+			<li>How often do they use the web?</li>
+			<li>What kind of device do they use to access the web?</li>
+		</ul>
+		<h3>TARGET AUDIENCE : COMPANIES</h3>
+		<ul>
+			<li>What is the size of the company or relevant department?</li>
+			<li>What is the position of people in the company who visit your site?</li>
+			<li>Will visitors be using the site for themselves or for someone else?</li>
+			<li>How large is the budget they control?</li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>Why people visit your website?</h2>
+		<h3>To help determine why people are coming to your website, there are two basic categories of questions you can
+			ask:</h3>
+		<ol>
+			<li> The first attempts to discover the underlying motivation for why visitors come to the site.
+			</li>
+			<li> The second examines the specific goals of the visitors. These are the triggers making them come to
+				the site now</li>
+		</ol>
+		<h3>KEY MOTIVATIONS</h3>
+		<ul>
+			<li>Are they looking for general entertainment or do they need to achieve a specific goal? </li>
+			<li>If there is a specific goal, is it a personal or professional one?</li>
+			<li>Do they see spending time on this activity as essential or a luxury?</li>
+		</ul>
+		<h3>SPECIFIC GOALS</h3>
+		<ul>
+			<li>Do they want general information / research (such as background on a topic / company), or are they after
+				something specific (such as a particular fact or information on a product)?</li>
+			<li>Are they already familiar with the service or product that you offer or do they need to be introduced to
+				it? </li>
+			<li>Are they looking for time sensitive information, such as the latest news or updates on a particular
+				topic? </li>
+			<li>Do they want to discover information about a specific product or service to help them decide whether to
+				buy it or not? </li>
+			<li>Do they need to contact you? If so, can they visit in person (which might require opening hours and a
+				map)? Or might they need email or telephone contact details?</li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>What yor visitors are trying to achieve?</h2>
+		<ul>
+			<li>A person bought a tennis racquet several years ago; now he wants to purchase one from your site for his
+				friend.
+			</li>
+			<li>A person has read about your new doggy daycare service in the press and wants to find out whether it
+				would be suitable for her to use.
+			</li>
+			<li>A person had a bad experience staying in a hotel when visiting Sydney, Australia, and wants to make a
+				complaint</li>
+			<li>A person hopes to study architecture and wants to learn more about a new course that is being offered
+			</li>
+			<li>A person is a picture editor and wants to look at a photographer's site to see examples of his work
+				before deciding whether to commission him.
+			</li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>What information your visitors need?</h2>
+		<ul>
+			<li>Will visitors be familiar with your subject area / brand or do you need to introduce yourself? </li>
+			<li>Will they be familiar with the product / service / information you are covering or do they need
+				background information on it?</li>
+			<li>What are the most important features of what you are offering?</li>
+			<li>What is special about what you offer that differentiates you from other sites that offer something
+				similar</li>
+			<li>Once people have achieved the goal that sent them to your site, are there common questions people ask
+				about this subject area</li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>How often people will visit your site?</h2>
+		<h3>GOODS AND SERVICES</h3>
+		<ul>
+			<li>How often do the same people return to purchase from you?</li>
+			<li>How often is your stock updated or your service changed?</li>
+		</ul>
+		<h3>INFORMATION</h3>
+		<ul>
+			<li>How often is the subject updated?</li>
+			<li>What percentage of your visitor would return for regular updates on the subject, compared with those who
+				will just need the information once?</li>
+		</ul>
+	</div>
+
+
+	<h2>Site Map</h2>
+	<img src="../static/img/Screenshot (322).png" alt="Screenshot (322)">
+
+
+	<h2>WIREFRAMES</h2>
+	<h3>You can create wireframe using some sites or tools like https://gomockingbird.com , indesign (adobe software)
+		and illustration (adobe software) </h3>
+	<img src="../static/img/wireframe.png" alt="wireframe">
+
+	<div>
+		<h2>Getting your message across using design</h2>
+		<h3>CONTENT</h3>
+		<p>Web pages often have a lot of information to communicate for example, the pages of online newspapers will
+			have information that does not appear on every page of the prnt equivalent:</p>
+		<ul>
+			<li>A master head or logo</li>
+			<li>Links to navigate the site</li>
+			<li>Links to related content and other popular articles</li>
+			<li>Login or membership options</li>
+			<li>Ability for users to comment</li>
+			<li>Copyright information</li>
+			<li>Links to privacy policies, terms and conditions, advertising information, RSS, feed, subscription
+				options</li>
+		</ul>
+		<h3>PRIORTIZING</h3>
+		<p>If everything on a page appeared in the same style, it would be much harder to understand.(Key messages would
+			not stand out).</p>
+		<p>By making parts of the page look distinct from the surrounding content, designers draw attention to (or way
+			from) those items.</p>
+		<p>Designers craete something known as the visual hierarchy to help users focus on the key messages that will
+			draw people attention, and the guide them to subsequent messages.</p>
+		<h3>ORGANIZING</h3>
+		<p>Grouping together related content into blocks or chunks makes the page look simpler (and easier to
+			understand). </p>
+		<p>Users should be able to identify the purpose of each block without processing each individual item.
+		</p>
+		<p>By presenting certain types of information in a similar visual style (such as using the same style for all
+			buttons or all links), users will learn to associate that style with a particular type of content.
+		</p>
+	</div>
+
+	<h2>Grouping and Similarity</h2>
+	<img src="../static/img/grouping and similarity.png" alt="grouping and similarity">
+
+	<h2>Designing Navigation</h2>
+	<img src="../static/img/Screenshot (326).png" alt="Designing Navigation">
+
+	<h1>Practical Information</h1>
+	<h2>SEO(Search Engine Optimization)</h2>
+	<h3>On Page Seo</h3>
+	<p>There are many way for on page seo some of these are :-</p>
+	<p>1. Page Title - The page title appears at the top of the browser window or on the tab of a browser. It is
+		specified in the "title" element which lives inside the "head" element.</p>
+	<p>2. Url - The name of the file is part of the URL. Where possible, use keywords in the file name.</p>
+	<p>3. Headings - If the keywords are in a heading "hn" element then a search engine will know that this page is all
+		about that subject and give it greater weight than other text.</p>
+	<p>4. Text - Where possible, it helps to repeat the keywords in the main body of the text at least 2-3 times. Do
+		not, however, over-use these terms, because the text must be easy for a human to read.</p>
+	<p>5. Link Text - Use keywords in the text that create links between pages (rather than using generic expressions
+		such as "click here").</p>
+	<p>6. Image Alt - Search engines rely on you providing accurate descriptions of images in the alt text. This will
+		also help your images show up in the results of image-based searches.</p>
+	<p>7. Page Descriptions - The description also lives inside the "head" element and is specified using a "meta" tag.
+		It should be a sentence that describes the content of the page. (These are not shown in the browser window but
+		they may be displayed in the results pages of search engines.)</p>
+
+	<h2>How identify keywords and phrases</h2>
+	<h3>Brainstorm</h3>
+	<p>List down the words that someone might type into google to find your sites. Be sure to include the various
+		topics, products or services your site is about.</p>
+	<p> If often helps to ask other people what words they would use to
+		find your site because people less familiar with a topic might use different terms tha you.</p>
+	<p>Your list may include some keyword phrases (not just individual words) if you have topics which are described by
+		more than one word.</p>
+	<h3>Organize</h3>
+	<p>Group the keywords into separate lists for the different sections or categories of your website.</p>
+	<p>For example, if your website was a pet shop you might have different categories for different animals (such as
+		dogs, cats and rabbits).</p>
+	<p>On a large site you may break this up further into sub-categories (for example, separate groups for different pet
+		food brands).</p>
+	<h3>Research</h3>
+	<p>There are several tools that let you enter your keywords and then they will suggest additional keywords you might
+		like to consider, such as: adwords.google.co.uk/ select/KeywordToolExternal (When using this tool, select the
+		"exact match" option rather than "broad match.") www.wordtracker.com www.keyworddiscovery.com</p>
+	<p>Once these tools have suggested additional keywords, add the relevant options to your lists. (Keyword tools will
+		most likely suggest some terms that are irrelevant so do omit any that do not seem appropriate).</p>
+	<h3>Compare</h3>
+	<p>It is very unlikely that your site will appear at the top of the search results for every keyword. This is
+		especially true for topics where there is a lot of competition. The more sites out there that have already been
+		optimized for a given keyword, the harder it will be for you to rise up the search results when people search on
+		that term.</p>
+	<p>Some of the keyword research sites can tell you how many people have searched for a specific keyword to help you
+		know how much competition those terms have.</p>
+	<p>You can also use Google's advanced search feature to just search the titles of web pages. This will help you to
+		determine how many sites have that keyword in the title of their pages. (The more pages with the term in the
+		title, the more competition there is.)</p>
+	<h3>Refine</h3>
+	<p>Now you need to pick which keywords you will focus on. These should always be the ones that are most relevant to
+		each section of your site.</p>
+	<p>If there is a phrase that is very relevant but you find there is a lot of competition, you should still use it.
+		To improve the chances of your site being found you can look at whether there are other words that could be
+		incorporated into a phrase. For example, if the information or service you offer on your website is location
+		specific, then you will often find that incorporating your location into your keyword list will help people find
+		you.</p>
+	<p>If your site is promoting a slate roofing company in Australia then it is better to get 100 people from Australia
+		who are looking for a slate roof than 10,000 from the USA who are looking for other kinds of rooves.</p>
+	<h3>Map</h3>
+	<p>Now that you have a refined list of keywords, you know which have the most competition, and which ones are most
+		relevant, it is time to start picking which keywords you will use for each page.</p>
+	<p>Pick 3-5 keywords or phrases that map to each page of your website and use these as the keywords for each page.
+	</p>
+	<p>You should not need to repeat the same keywords on all of the pages. It is also likely that, as you move further
+		away from the homepage into the sections of the site, the keywords will become more specific to the individual
+		topic dealt with on each page.</p>
+
+	<h2>Analytics : Learning about your visitors</h2>
+	<h3>Sign up:-
+		The Google Analytics service relies on you signing up for an account at: www.google.com/analytics The site will
+		give you a piece of tracking code which you need to put on every page of your site.</h3>
+	<h3>How it works:-
+		Every time someone loads a page of your site, the tracking code sends data to the Google servers where it is
+		stored. Google then provides a webbased interface that allows you to see how visitors use your site.</h3>
+	<h3>The tracking code:-
+		A tracking code is provided by Google Analytics for each website you are tracking. It should appear just before
+		the closing "head" tag. The code does not alter the appearance of your web pages.</h3>
+
+	<h2>How many people are visiting your website</h2>
+	<h3>Visits:- This is the number of times people have come to your website. If someone is inactive on your site for
+		30 minutes and then looks at your site for 30 minutes and ooks at another page on your site, it will be counted
+		counted as a new visit.</h3>
+	<h3>Unique Visits:- This is the total number of people who have visited your site over the specified period. The
+		number of unique visits will be lower than the number of visits if people have been returning to your site more
+		than once in the defined period.</h3>
+	<h3>Page Views:- The total number of pages all visitors have viewed on your site.</h3>
+	<h3>Pages per visit:- The average number of pages each visitor has looked at on your site per visit.</h3>
+	<h3>Average time on site:- The average amount of time each user has spent on the site per visit.</h3>
+	<h3>Date selector:- Using the date selector in the top right hand corner of the site, you can change the period of
+		time the reports display. When you log in, this is usually set to the last month, but you can change it to
+		report on a specific time period.</h3>
+	<h3>Export:- The export link just above the title that says "visitors overview" allows you to export the statistics
+		on this page for other applications such as Excel.</h3>
+
+<hr><hr><hr>
+
+
+
+
+</body>
+
+</html>
